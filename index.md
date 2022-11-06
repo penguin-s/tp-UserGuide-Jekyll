@@ -87,6 +87,8 @@ Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in
 
 #### Basic Syntax
 
+<br>
+
 When inputting arguments:
 * The absence of square brackets denotes **mandatory** arguments.
 * Square brackets denote **optional** arguments.
@@ -1044,6 +1046,7 @@ The target was edited successfully.
 
 <br>
 <hr>
+<br>
 
 ## Handling your data
 By default, all lists are saved in the `MoneyGoWhereData.xml` file in the **Memory** folder created in the same directory as `MoneyGoWhere.jar`.
@@ -1075,13 +1078,10 @@ Example of usage:
 <hr>
 
 ### Exiting the application: `bye`
+
 Exits MoneyGoWhere.
 
-<br>
-
 Syntax: `bye`
-
-<br>
 
 Example of usage:
 
@@ -1091,6 +1091,10 @@ Example of usage:
 <br>
 
 ## FAQ
+
+A compilation of frequently asked questions that can help you clarify common misconceptions in using MoneyGoWhere.
+
+<br>
 
 **Q**: How do I transfer my data to another computer?
 
