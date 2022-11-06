@@ -17,12 +17,12 @@ layout: home
   * [Installation requirements](#installation-requirements)
   * [Basic commands](#basic-commands)
 * [Features](#features)
+   * [Listing all available commands: `help`](#listing-all-available-commands-help)
    * [Managing your expenses](#managing-your-expenses)
    * [Managing your recurring payments](#managing-your-recurring-payments)
    * [Managing your incomes](#managing-your-incomes)
    * [Managing your targets](#managing-your-targets)
    * [Handling your data](#handling-your-data)
-   * [Listing all available commands: `help`](#listing-all-available-commands-help)
    * [Exiting the application: `bye`](#exiting-the-application-bye)
 * [FAQ](#faq)
 * [Command summary](#command-summary)
@@ -73,10 +73,12 @@ Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in
 <br>
 
 {: .invalid }
-Cross symbols (❌) indicate **invalid** input into MoneyGoWhere.
+> {: .opaque }
+> Cross symbols (❌) indicate **invalid** input into MoneyGoWhere.
 
 {: .valid }
-Tick symbols (✔️) indicate **valid** input into MoneyGoWhere.
+> {: .opaque }
+> Tick symbols (✔️) indicate **valid** input into MoneyGoWhere.
 
 {: .tips }
 Information symbols (ℹ️) indicate **tips** or **notes** that contain extra information to clarify functions for you.
