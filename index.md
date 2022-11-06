@@ -1119,6 +1119,7 @@ A list of all valid commands.
 <br>
 
 ### Recurring Payments
+
 | Command                  | Syntax                                                                                                                             |
 |:-------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | Add recurring payment    | `Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY]`                                  |
@@ -1130,6 +1131,7 @@ A list of all valid commands.
 <br>
 
 ### Incomes
+
 | Command        | Syntax                                                                                    |
 |:---------------|:------------------------------------------------------------------------------------------|
 | Add income     | `Add-Income -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                      |
@@ -1140,6 +1142,7 @@ A list of all valid commands.
 <br>
 
 ### Targets
+
 | Command       | Syntax                                                                                                        |
 |:--------------|:--------------------------------------------------------------------------------------------------------------|
 | Add target    | `Add-Target -n NAME -a AMOUNT -c CURRENT-AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                        |
@@ -1150,6 +1153,7 @@ A list of all valid commands.
 <br>
 
 ### Miscellaneous
+
 | Command           | Syntax                      |
 |:------------------|:----------------------------|
 | Merge file        | `Merge-File -p PATH_STRING` |
@@ -1159,7 +1163,12 @@ A list of all valid commands.
 <br>
 <br>
 
-
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
 
 ----
 
