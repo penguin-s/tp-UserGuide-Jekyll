@@ -67,13 +67,17 @@ Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in
 
 ### Understanding symbols used in the User Guide
 
+{: .invalid }
 >❌ Cross symbols indicate **invalid** input into MoneyGoWhere.
 
->✔️ Tick symbols indicate **valid** input into MoneyGoWhere.
+{: .valid }
+✔️ Tick symbols indicate **valid** input into MoneyGoWhere.
 
->ℹ️ Information symbols indicate **tips** or **notes** that contain extra information to clarify functions for you.
+{: .tips }
+ℹ️ Information symbols indicate **tips** or **notes** that contain extra information to clarify functions for you.
 
->⚠️ Warning symbols indicate **pre-cautions** that you should take when using the function.
+{: .notes }
+⚠️ Warning symbols indicate **precautions** that you should take when using the function.
 
 <br>
 <hr>
@@ -97,7 +101,6 @@ Example: `Add-Expense -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION] [-c CATE
 > `Add-Expense -a 13.37`
 
 {: .valid }
-A paragraph
 > `Add-Expense -n Subscription -a 13.37`
 > 
 > `Add-Expense -n "Cloud subscription" -a 13.37 -d "01/01/2022 2359"`
@@ -184,15 +187,15 @@ Add-Expense -n "-Phone Bill" -a -500.00
 
 ### Basic commands
 
-| Command               | Syntax                                                                                                                          |
-|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------|
-| Add expense           | ` Add-Expense -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE OF PAYMENT] ` |
-| View expense(s)       | ` View-Expense [-e EXPENSE-INDEX] [-c EXPENSE-CATEGORY] [-n EXPENSE-NAME] `                                                     |
-| Add recurring payment | ` Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY] `                             |
-| Add income            | ` Add-Income -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] `                                                          |
-| Add target            | ` Add-Target -n NAME -a AMOUNT -c CURRENT-AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] `                                        |
-| View command list     | `help`                                                                                                                          |
-| Exit                  | `bye`                                                                                                                           |
+| Command               | Syntax                                                                                                                        |
+|:----------------------|:------------------------------------------------------------------------------------------------------------------------------|
+| Add expense           | `Add-Expense -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE OF PAYMENT]` |
+| View expense(s)       | `View-Expense [-e EXPENSE-INDEX] [-c EXPENSE-CATEGORY] [-n EXPENSE-NAME]`                                                     |
+| Add recurring payment | `Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY]`                             |
+| Add income            | `Add-Income -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                                                          |
+| Add target            | `Add-Target -n NAME -a AMOUNT -c CURRENT-AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                                        |
+| View command list     | `help`                                                                                                                        |
+| Exit                  | `bye`                                                                                                                         |
 
 <br>
 
@@ -1159,6 +1162,7 @@ A list of all valid commands.
 
 <br>
 <br>
+
 ----
 
 [^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
