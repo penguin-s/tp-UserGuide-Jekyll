@@ -42,7 +42,10 @@ Although this application is mainly targeted at computing professionals who are 
 <br>
 
 ## How to use the User Guide
-When using the user guide, you should first refer to the [Table of Contents](#contents) to quickly navigate between sections.
+
+<br>
+
+When using the user guide, you should first refer to the [Contents](#contents) to quickly navigate between sections.
 
 Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in a snap.
 
@@ -374,7 +377,7 @@ Deletes an expense from the list of expenses.
 
 Syntax: `Delete-Expense -e EXPENSE_NUMBER`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `EXPENSE_NUMBER` is an integer value. This value should be equal to or greater than 0.
 
 <br>
@@ -397,7 +400,7 @@ Edits an existing expense in the list of expenses.
 
 Syntax: `Edit-Expense -e EXPENSE_NUMBER [-n NAME] [-a AMOUNT] [-d DATE_TIME] [-t DESCRIPTION] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE OF PAYMENT]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `EXPENSE_NUMBER` is an integer value. This value should be equal to or greater than 0.
 > * `NAME`, `DESCRIPTION`, `CATEGORY`, `REMARKS` and `MODE OF PAYMENT` are text strings. You may use spaces within the text if you wrap the text with double quotes.
 > * `CURRENCY` is a text string. It must be a valid currency code.
@@ -446,7 +449,7 @@ The expense was edited successfully.
 Sorts the list of expenses according to an alphabetical, amount, date or currency order. It can be sorted in both ascending and
 descending order. 
 
-> ℹ️ Tips
+{: .tips }
 > 1. By default, expenses are sorted in alphabetical order, from A to Z. Expenses are sorted **automatically** whenever a new expense is added, or if an existing expense is edited. 
 > 2. The nature of this feature could cause the indexes of the expenses to change while running MoneyGoWhere. Please use `View-Expense` to get the most updated indexes of the expenses.
 
@@ -454,7 +457,7 @@ descending order.
 
 Syntax: `Sort-Expense -t TYPE -o ORDER`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `TYPE` is a text string. It can be either `alphabetical`, `amount`, `date` or `currency`.
 > * `ORDER` is a text string. It can be either `ascending` or `descending`.
 
@@ -497,7 +500,7 @@ Converts the currency of an expense from the list of expenses.
 
 Syntax: `Convert-Currency -e EXPENSE_NUMBER -x CURRENCY [-r RATE]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `EXPENSE_NUMBER` is an integer value. This value should be equal to or greater than 0.
 > * `CURRENCY` is a text string. It must be a valid currency code.
 > * `RATE` is a decimal value. This value should be greater than 0. This rate should be the rate to convert the expense amount from the old currency to the new currency.
@@ -549,7 +552,7 @@ Adds a recurring payment to the list of recurring payments.
 
 Syntax: `Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY] [-p MODE_OF_PAYMENT]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `NAME` and `DESCRIPTION` are text strings. You may use spaces within the text if you wrap the text with double quotes.
 > * `INTERVAL` is an integer value. Set this value to the estimated number of days between your recurring payments.
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
@@ -595,7 +598,7 @@ Displays the past recurring payments you have added.
 
 Syntax: `View-RecurringPayment [-r RECURRING_PAYMENT_INDEX]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `RECURRING_PAYMENT_INDEX` is an integer value. If this argument is provided, MoneyGoWhere will only display the specified recurring payment.
 
 <br>
@@ -635,7 +638,7 @@ Deletes a recurring payment from the list of recurring payments.
 
 Syntax: `Delete-RecurringPayment -r RECURRING_PAYMENT_INDEX`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `RECURRING_PAYMENT_INDEX` is an integer value.
 
 <br>
@@ -658,7 +661,7 @@ Edits a recurring payment in the list of recurring payments.
 
 Syntax: `Edit-RecurringPayment -r RECURRING_PAYMENT_INDEX [-n NAME] [-i INTERVAL] [-a AMOUNT] [-t DESCRIPTION]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `RECURRING_PAYMENT_INDEX` is an integer value.
 > * `NAME` and `DESCRIPTION` are text strings. You may use spaces within the text if you wrap the text with double quotes.
 > * `INTERVAL` is an integer value. Set this value to the estimated number of days between your recurring payments.
@@ -689,7 +692,7 @@ Pays a recurring payment from the list of recurring payments.
 
 Syntax: `Pay-RecurringPayment -r RECURRING_PAYMENT_INDEX [-d DATE_TIME]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `RECURRING_PAYMENT_INDEX` is an integer value.
 > * `DATE_TIME` is a text string in the format `"dd/MM/yyyy HHmm"`. If this value is not provided, MoneyGoWhere will save the current date and time for you.
 
@@ -737,7 +740,7 @@ Adds a new income to the list of incomes.
 
 Syntax: `Add-Income -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `NAME` and `DESCRIPTION` are text strings. You may use spaces within the text if you wrap the text with double quotes.</li>
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
 > * `DATE_TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
@@ -776,7 +779,7 @@ Displays past incomes you have added.
 
 Syntax: `View-Income [-e INCOME_NUMBER]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `INCOME_NUMBER` is an integer value.
 > * If this argument is provided, MoneyGoWhere will only display the specified expense.
 
@@ -817,7 +820,7 @@ Deletes an income from the list of incomes.
 
 Syntax: `Delete-Income -e INCOME_NUMBER`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `INCOME_NUMBER` is an integer value.
 
 <br>
@@ -840,7 +843,7 @@ Edits an existing income in the list of incomes.
 
 Syntax: `Edit-Income -e INCOME_NUMBER [-n NAME] [-a AMOUNT] [-d DATE_TIME] [-t DESCRIPTION]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `INCOME_NUMBER` is an integer value.
 > * `NAME` and `DESCRIPTION` are text strings. You may use spaces within the text if you wrap the text with double quotes.
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
@@ -899,7 +902,7 @@ Adds a new target to the list of targets.
 
 Syntax: `Add-Target -n NAME -a AMOUNT -c CURRENT_AMOUNT [-d DATE_TIME] [-t DESCRIPTION]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `NAME` and `DESCRIPTION` are text strings. You may use spaces within the text if you wrap the text with double quotes.</li>
 > * `AMOUNT` and `CURRENT_AMOUNT` are decimal value. The values should be greater than 0.
 > * `DATE_TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
@@ -941,7 +944,7 @@ Displays past targets you have added.
 
 Syntax: `View-Target [-e TARGET_NUMBER]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `TARGET_NUMBER` is an integer value.
 > * If this argument is provided, MoneyGoWhere will only display the specified expense.
 
@@ -985,7 +988,7 @@ Deletes a target from the list of targets.
 
 Syntax: `Delete-Target -e TARGET_NUMBER`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `TARGET_NUMBER` is an integer value.
 
 <br>
@@ -1008,7 +1011,7 @@ Edits an existing target in the list of targets.
 
 Syntax: `Edit-Target -e TARGET_NUMBER [-n NAME] [-a AMOUNT] [-c CURRENT_AMOUNT] [-d DATE_TIME] [-t DESCRIPTION]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `TARGET_NUMBER` is an integer value.
 > * `NAME` and `DESCRIPTION` are text strings. You may use spaces within the text if you wrap the text with double quotes.
 > * `AMOUNT` and `CURRENT_AMOUNT` is a decimal value. The values should be greater than 0.
@@ -1067,7 +1070,7 @@ Merges save file from an external source given path to the .xml save file
 
 Syntax: `Merge-File -p PATH_STRING` 
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `PATH_STRING` is text string. If your path contains spaces, you would need to wrap the text with double quotes.
 
 <br>
