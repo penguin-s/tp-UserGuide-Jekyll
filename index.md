@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: User Guide
 layout: home
 nav_order: 1
 description: "MoneyGoWhere is a CLI-based application to help manage finances."
