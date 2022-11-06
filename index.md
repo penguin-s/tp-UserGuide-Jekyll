@@ -81,10 +81,10 @@ Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in
 > Tick symbols (✔️) indicate **valid** input into MoneyGoWhere.
 
 {: .tips }
-Information symbols (ℹ️) indicate **tips** or **notes** that contain extra information to clarify functions for you.
+> Information symbols (ℹ️) indicate **tips** or **notes** that contain extra information to clarify functions for you.
 
 {: .notes }
-Warning symbols (⚠️) indicate **precautions** that you should take when using the function.
+> Warning symbols (⚠️) indicate **precautions** that you should take when using the function.
 
 <br>
 <hr>
@@ -177,6 +177,7 @@ Add-Expense -n "-Phone Bill" -a -500.00
 ### Sub-Contents
 
 * [Installation requirements](#installation-requirements)
+* [How to run MoneyGoWhere](#how-to-run-moneygowhere)
 * [Basic commands](#basic-commands)
 
 <br>
@@ -189,6 +190,79 @@ Add-Expense -n "-Phone Bill" -a -500.00
     1. Execute the command ```java --version``` in your terminal window.
     2. Verify that the version of Java installed is ```Java 11```.
 2. Ensure that you have write permissions for the directory in which you are executing the program.
+
+<br>
+<hr>
+<br>
+
+### How to run MoneyGoWhere
+
+<br>
+
+#### On Windows OS
+
+1. Open the Command Prompt.
+2. Execute the command  `java -jar MoneyGoWhere.jar`
+3. When successfully run, MoneyGoWhere should display the following message:
+
+```
+  __  __                         _____   __          ___                   
+ |  \/  |                       / ____|  \ \        / / |                  
+ | \  / | ___  _ __   ___ _   _| |  __  __\ \  /\  / /| |__   ___ _ __ ___ 
+ | |\/| |/ _ \| '_ \ / _ \ | | | | |_ |/ _ \ \/  \/ / | '_ \ / _ \ '__/ _ \
+ | |  | | (_) | | | |  __/ |_| | |__| | (_) \  /\  /  | | | |  __/ | |  __/
+ |_|  |_|\___/|_| |_|\___|\__, |\_____|\___/ \/  \/   |_| |_|\___|_|  \___|
+                           __/ |                                           
+                          |___/                                            
+
+Your MoneyGoWhere? Let me help you track it.
+```
+
+<br>
+<hr>
+<br>
+
+#### On Mac OS
+
+1. Open the Start menu and go to Command Prompt.
+2. Execute the command  `java -jar MoneyGoWhere.jar`
+3. When successfully run, MoneyGoWhere should display the following message:
+
+```
+  __  __                         _____   __          ___                   
+ |  \/  |                       / ____|  \ \        / / |                  
+ | \  / | ___  _ __   ___ _   _| |  __  __\ \  /\  / /| |__   ___ _ __ ___ 
+ | |\/| |/ _ \| '_ \ / _ \ | | | | |_ |/ _ \ \/  \/ / | '_ \ / _ \ '__/ _ \
+ | |  | | (_) | | | |  __/ |_| | |__| | (_) \  /\  /  | | | |  __/ | |  __/
+ |_|  |_|\___/|_| |_|\___|\__, |\_____|\___/ \/  \/   |_| |_|\___|_|  \___|
+                           __/ |                                           
+                          |___/                                            
+
+Your MoneyGoWhere? Let me help you track it.
+```
+
+<br>
+<hr>
+<br>
+
+#### On Linux OS
+
+1. Navigate to terminal by locating it your launcher or by searching it in `Activities` at the top left of the screen. 
+3. Execute the command  `java -jar MoneyGoWhere.jar`
+4. When successfully run, MoneyGoWhere should display the following message:
+
+```
+  __  __                         _____   __          ___                   
+ |  \/  |                       / ____|  \ \        / / |                  
+ | \  / | ___  _ __   ___ _   _| |  __  __\ \  /\  / /| |__   ___ _ __ ___ 
+ | |\/| |/ _ \| '_ \ / _ \ | | | | |_ |/ _ \ \/  \/ / | '_ \ / _ \ '__/ _ \
+ | |  | | (_) | | | |  __/ |_| | |__| | (_) \  /\  /  | | | |  __/ | |  __/
+ |_|  |_|\___/|_| |_|\___|\__, |\_____|\___/ \/  \/   |_| |_|\___|_|  \___|
+                           __/ |                                           
+                          |___/                                            
+
+Your MoneyGoWhere? Let me help you track it.
+```
 
 <br>
 <hr>
@@ -221,7 +295,8 @@ Lists all valid commands for MoneyGoWhere.
 Syntax: `help`
 
 Example of usage:
-* `help`
+
+`help`
 
 _If you would like a more user-friendly view of all available commands, please refer to the [Command Summary](#command-summary) at the end of the guide._
 
