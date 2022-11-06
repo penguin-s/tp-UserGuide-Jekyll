@@ -1,5 +1,5 @@
 ---
-title: Home
+title: User Guide
 layout: home
 ---
 # MoneyGoWhere
@@ -247,7 +247,7 @@ Your MoneyGoWhere? Let me help you track it.
 
 #### On Linux OS
 
-1. Navigate to the **terminal** by locating it your **launcher** or by searching it in `Activities` at the top left of the screen. 
+1. Navigate to the **terminal** by locating it your **launcher** or by searching it in **Activities** at the top left of the screen. 
 3. Execute the command  `java -jar MoneyGoWhere.jar`
 4. When successfully run, MoneyGoWhere should display the following message:
 
@@ -1156,9 +1156,13 @@ Example of usage:
 `Merge-File -p "C:\Users\the_d\Downloads\expenses.xml"`
 
 <br>
-<hr>
 
-### Exiting the application: `bye`
+[Back to Contents](#contents)
+
+<br>
+<br>
+
+## Exiting the application: `bye`
 
 Exits MoneyGoWhere.
 
@@ -1186,15 +1190,8 @@ A compilation of frequently asked questions that can help you clarify common mis
 > How do I transfer my data to another computer?
 > <div markdown="block">
 > {: .answer }
-> As you enter data into MoneyGoWhere, it creates a **Memory** folder in the same directory as the *.jar* file.
-You may use any of your preferred tool to transfer the **Memory/MoneyGoWhereData.xml** data file to another computer and run the [`Merge-File`](#merging-a-data-file-merge-file) command to merge the copied file.
+> As you enter data into MoneyGoWhere, it creates a **Memory** folder in the same directory as the `MoneyGoWhere.jar` file. To merge the copied file, open the **Memory** folder and transfer `MoneyGoWhereData.xml`** to another computer. Then, run the [`Merge-File`](#merging-a-data-file-merge-file) command to merge the copied file.
 > </div>
-
-**Q**: How do I transfer my data to another computer?
-
-**A**:
-As you enter data into MoneyGoWhere, it creates a **Memory** folder in the same directory as the *.jar* file.
-You may use any of your preferred tool to transfer the **Memory/MoneyGoWhereData.xml** data file to another computer and run the [`Merge-File`](#merging-a-data-file-merge-file) command to merge the copied file.
 
 <br>
 <br>
