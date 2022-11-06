@@ -1170,7 +1170,7 @@ Example of usage:
 
 <br>
 
-[Back to Contents)[#contents]
+[Back to Contents](#contents)
 
 <br>
 <br>
