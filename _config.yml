@@ -55,3 +55,9 @@ callouts:
   notes:
     title: ⚠️ Notes
     color: yellow
+  question:
+    title: ❓ Question
+    color: grey-lt
+  answer:
+    title: 🔎 Answer
+    color: grey-dark
