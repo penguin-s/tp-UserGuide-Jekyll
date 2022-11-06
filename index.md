@@ -91,15 +91,16 @@ When inputting arguments:
 
 Example: `Add-Expense -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE OF PAYMENT]`
 
-> ❌ Invalid Command Syntax
->
->* `Add-Expense -n Subscription`
->* `Add-Expense -a 13.37`
+{: .invalid }
+> `Add-Expense -n Subscription`
+> 
+> `Add-Expense -a 13.37`
 
->✔️ Valid Command Syntax
->
->* `Add-Expense -n Subscription -a 13.37`
->* `Add-Expense -n "Cloud subscription" -a 13.37 -d "01/01/2022 2359"`
+{: .valid }
+A paragraph
+> `Add-Expense -n Subscription -a 13.37`
+> 
+> `Add-Expense -n "Cloud subscription" -a 13.37 -d "01/01/2022 2359"`
 
 <br>
 <hr>
