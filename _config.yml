@@ -45,7 +45,7 @@ callouts_level: quiet # or loud
 callouts:
   valid:
     title: ✔️ Valid Input
-    color: green
+    color: red
   invalid:
     title: ❌ Invalid Input
     color: pink
@@ -54,4 +54,4 @@ callouts:
     color: blue
   notes:
     title: ⚠️ Notes
-    color: red
+    color: yellow
