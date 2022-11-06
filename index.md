@@ -1041,7 +1041,6 @@ The target was edited successfully.
 
 <br>
 <hr>
-<br>
 
 ## Handling your data
 By default, all lists are saved in the `MoneyGoWhereData.xml` file in the **Memory** folder created in the same directory as `MoneyGoWhere.jar`.
@@ -1071,7 +1070,6 @@ Example of usage:
 
 <br>
 <hr>
-<br>
 
 ### Exiting the application: `bye`
 Exits MoneyGoWhere.
@@ -1104,9 +1102,8 @@ You may use any of your preferred tool to transfer the **Memory/MoneyGoWhereData
 
 A list of all valid commands.
 
-<br>
-
 ### Expenses
+
 | Command          | Syntax                                                                                                                                                    |
 |:-----------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Add expense      | `Add-Expense -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE OF PAYMENT]`                             |
@@ -1162,14 +1159,6 @@ A list of all valid commands.
 
 <br>
 <br>
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
 ----
 
 [^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
