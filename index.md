@@ -67,7 +67,7 @@ Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in
 
 ### Understanding symbols used in the User Guide
 
-> ❌ Cross symbols indicate **invalid** input into MoneyGoWhere.
+>❌ Cross symbols indicate **invalid** input into MoneyGoWhere.
 
 >✔️ Tick symbols indicate **valid** input into MoneyGoWhere.
 
@@ -154,7 +154,7 @@ Add-Expense -n "-Phone Bill" -a -500.00
 ```
 <br>
 
-[Back to Sub-Contents](#understanding-the-command-syntax)
+[Back to Sub-Contents](#how-to-use-the-user-guide)
 
 <br>
 <br>
@@ -184,7 +184,7 @@ Add-Expense -n "-Phone Bill" -a -500.00
 ### Basic commands
 
 | Command               | Syntax                                                                                                                          |
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------|
+|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------|
 | Add expense           | ` Add-Expense -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE OF PAYMENT] ` |
 | View expense(s)       | ` View-Expense [-e EXPENSE-INDEX] [-c EXPENSE-CATEGORY] [-n EXPENSE-NAME] `                                                     |
 | Add recurring payment | ` Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY] `                             |
@@ -1107,7 +1107,7 @@ A list of all valid commands.
 
 ### Expenses
 | Command          | Syntax                                                                                                                                                    |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:-----------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Add expense      | `Add-Expense -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE OF PAYMENT]`                             |
 | View expenses    | `View-Expense [-e EXPENSE-INDEX] [-c EXPENSE-CATEGORY] [-n EXPENSE-NAME]`                                                                                 |
 | Delete expense   | `Delete-Expense -e EXPENSE-INDEX`                                                                                                                         |
@@ -1119,7 +1119,7 @@ A list of all valid commands.
 
 ### Recurring Payments
 | Command                  | Syntax                                                                                                                             |
-|--------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+|:-------------------------|:-----------------------------------------------------------------------------------------------------------------------------------|
 | Add recurring payment    | `Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY]`                                  |
 | View recurring payments  | `View-RecurringPayment [-r RECURRINGPAYMENT-INDEX]`                                                                                |
 | Delete recurring payment | `Delete-RecurringPayment -r RECURRINGPAYMENT-INDEX`                                                                                |
@@ -1130,7 +1130,7 @@ A list of all valid commands.
 
 ### Incomes
 | Command        | Syntax                                                                                    |
-|----------------|-------------------------------------------------------------------------------------------|
+|:---------------|:------------------------------------------------------------------------------------------|
 | Add income     | `Add-Income -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                      |
 | View incomes   | `View-Income [-e INCOME-INDEX]`                                                           |
 | Delete incomes | `Delete-Income -e INCOME-INDEX`                                                           |
@@ -1140,7 +1140,7 @@ A list of all valid commands.
 
 ### Targets
 | Command       | Syntax                                                                                                        |
-|---------------|---------------------------------------------------------------------------------------------------------------|
+|:--------------|:--------------------------------------------------------------------------------------------------------------|
 | Add target    | `Add-Target -n NAME -a AMOUNT -c CURRENT-AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                        |
 | View targets  | `View-Target [-e TARGET-INDEX]`                                                                               |
 | Delete target | `Delete-Target -e TARGET-INDEX`                                                                               |
@@ -1150,7 +1150,7 @@ A list of all valid commands.
 
 ### Miscellaneous
 | Command           | Syntax                      |
-|-------------------|-----------------------------|
+|:------------------|:----------------------------|
 | Merge file        | `Merge-File -p PATH_STRING` |
 | View command list | `help`                      |
 | Exit              | `bye`                       |
