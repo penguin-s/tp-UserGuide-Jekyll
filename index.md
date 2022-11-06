@@ -8,10 +8,6 @@ layout: home
 <p align="center"><img alt="icon" src="https://raw.githubusercontent.com/penguin-s/tp/branch-User-Guide/docs/images/icon.png"></p>
 <br>
 
-Click here to view the User Guide in dark mode:
-
-<script> const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'dark') { jtd.setTheme('light'); toggleDarkMode.textContent = 'Preview dark color scheme'; } else { jtd.setTheme('dark'); toggleDarkMode.textContent = 'Return to the light side'; } }); </script>
-
 ## Contents
 * [Introduction](#introduction)
 * [How to use the User Guide](#how-to-use-the-user-guide)
