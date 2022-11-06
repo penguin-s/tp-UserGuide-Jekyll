@@ -3,7 +3,7 @@ title: Developer Guide
 layout: default
 nav_order: 3
 description: "Documentation for developers to understand the workings behind MoneyGoWhere."
-permalink: /
+permalink: /developerguide/
 ---
 # MoneyGoWhere: Developer Guide
 
