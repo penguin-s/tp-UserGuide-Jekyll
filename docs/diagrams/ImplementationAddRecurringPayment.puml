@@ -1,11 +1,11 @@
 @startuml
-!include https://raw.githubusercontent.com/xzynos/tp/branch-Webpage/docs/diagrams/Styles.puml
+!include Styles.puml
 
 skinparam sequenceReferenceBackgroundColor #ffffff
 
 Participant "consoleInterface:ConsoleInterface" as consoleInterface USER_INTERFACE_COLOR_1
-Participant "recurringPayment:RecurringPayment" as recurringPayment DATA_COLOR_4
-Participant "recurringPaymentManager:RecurringPaymentManager" as recurringPaymentManager DATA_COLOR_4
+Participant "recurringPayment\n:RecurringPayment" as recurringPayment DATA_COLOR_4
+Participant "recurringPaymentManager\n:RecurringPaymentManager" as recurringPaymentManager DATA_COLOR_4
 Participant "<<class>>\nLocalStorage" as LocalStorage STORAGE_COLOR_1
 
 activate consoleInterface USER_INTERFACE_COLOR_1
