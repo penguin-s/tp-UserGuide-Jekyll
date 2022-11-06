@@ -2,7 +2,7 @@
 title: Welcome
 layout: home
 nav_order: 1
-description: "MoneyGoWHere is a CLI-based application to help manage finances."
+description: "MoneyGoWhere is a CLI-based application to help manage finances."
 permalink: / 
 ---
 # MoneyGoWhere
