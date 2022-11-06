@@ -45,10 +45,10 @@ callouts_level: quiet # or loud
 callouts:
   valid:
     title: ✔️ Valid Input
-    color: red
+    color: green
   invalid:
     title: ❌ Invalid Input
-    color: pink
+    color: red
   tips:
     title: ℹ️ Tips
     color: blue
