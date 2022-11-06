@@ -67,6 +67,8 @@ Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in
 
 ### Understanding symbols used in the User Guide
 
+<br>
+
 {: .invalid }
 Cross symbols (❌) indicate **invalid** input into MoneyGoWhere.
 
@@ -85,9 +87,9 @@ Warning symbols (⚠️) indicate **precautions** that you should take when usin
 
 ### Understanding the Command Syntax
 
-#### Basic Syntax
-
 <br>
+
+#### Basic Syntax
 
 When inputting arguments:
 * The absence of square brackets denotes **mandatory** arguments.
@@ -275,7 +277,7 @@ Adds a new expense to the list of expenses.
 
 Syntax: `Add-Expense -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE OF PAYMENT]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `NAME`, `DESCRIPTION`, `CATEGORY`, `REMARKS` and `MODE OF PAYMENT` are text strings. You may use spaces within the text if you wrap the text with double quotes.
 > * `CURRENCY` is a text string. It must be a valid currency code.
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
@@ -322,7 +324,7 @@ Displays past expenses you have added.
 
 Syntax: `View-Expense [-e EXPENSE_NUMBER]`
 
-> ⚠️️️️ Syntax Notes
+{: .notes }
 > * `EXPENSE_NUMBER` is an integer value. This value should be equal to or greater than 0.
 > * If this argument is provided, MoneyGoWhere will only display the specified expense.
 
