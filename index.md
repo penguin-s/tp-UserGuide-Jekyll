@@ -68,16 +68,16 @@ Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in
 ### Understanding symbols used in the User Guide
 
 {: .invalid }
->❌ Cross symbols indicate **invalid** input into MoneyGoWhere.
+Cross symbols (❌) indicate **invalid** input into MoneyGoWhere.
 
 {: .valid }
-✔️ Tick symbols indicate **valid** input into MoneyGoWhere.
+Tick symbols (✔️) indicate **valid** input into MoneyGoWhere.
 
 {: .tips }
-ℹ️ Information symbols indicate **tips** or **notes** that contain extra information to clarify functions for you.
+Information symbols (ℹ️) indicate **tips** or **notes** that contain extra information to clarify functions for you.
 
 {: .notes }
-⚠️ Warning symbols indicate **precautions** that you should take when using the function.
+Warning symbols (⚠️) indicate **precautions** that you should take when using the function.
 
 <br>
 <hr>
