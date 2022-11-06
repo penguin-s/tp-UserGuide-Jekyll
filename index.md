@@ -11,13 +11,13 @@ permalink: /
 <p align="center"><img alt="icon" src="https://raw.githubusercontent.com/AY2223S1-CS2113T-W11-1/tp/master/docs/images/icon.png"></p>
 <br>
 
-## 
+## Welcome!
 
-Welcome to MoneyGoWhere's documentation site!
+You've landed at MoneyGoWhere's documentation site!
 
 MoneyGoWhere is a Command Line Interface (CLI) application made by a group of students from the National University of Singapore (NUS).
 
-__Hyperlinks to other pages to be added soon__
+> Hyperlinks to other pages to be added soon
 
 ----
 
