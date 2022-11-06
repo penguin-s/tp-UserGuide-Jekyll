@@ -201,7 +201,7 @@ Add-Expense -n "-Phone Bill" -a -500.00
 
 #### On Windows OS
 
-1. Open the Command Prompt.
+1. Open the **Command Prompt**.
 2. Execute the command  `java -jar MoneyGoWhere.jar`
 3. When successfully run, MoneyGoWhere should display the following message:
 
@@ -224,7 +224,7 @@ Your MoneyGoWhere? Let me help you track it.
 
 #### On Mac OS
 
-1. Open the Start menu and go to Command Prompt.
+1. Open the **Applications** folder and open **Utilities** to access **Terminal**.
 2. Execute the command  `java -jar MoneyGoWhere.jar`
 3. When successfully run, MoneyGoWhere should display the following message:
 
@@ -247,7 +247,7 @@ Your MoneyGoWhere? Let me help you track it.
 
 #### On Linux OS
 
-1. Navigate to terminal by locating it your launcher or by searching it in `Activities` at the top left of the screen. 
+1. Navigate to the **terminal** by locating it your **launcher** or by searching it in `Activities` at the top left of the screen. 
 3. Execute the command  `java -jar MoneyGoWhere.jar`
 4. When successfully run, MoneyGoWhere should display the following message:
 
