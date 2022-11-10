@@ -111,6 +111,8 @@ Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in
 
 #### Basic Syntax
 
+<br>
+
 When inputting arguments:
 * The absence of square brackets denotes **mandatory** arguments.
 * Square brackets denote **optional** arguments.
@@ -297,6 +299,9 @@ SYNTAX: Add-Expense -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-c 
 
 Your MoneyGoWhere? Let me help you track it.
 ```
+<br>
+
+[Back to Sub-Contents](#quick-start)
 
 <br>
 <hr>
@@ -322,6 +327,10 @@ Your MoneyGoWhere? Let me help you track it.
 
 Your MoneyGoWhere? Let me help you track it.
 ```
+
+<br>
+
+[Back to Sub-Contents](#quick-start)
 
 <br>
 <hr>
