@@ -509,6 +509,8 @@ Mode of Payment : PayLah
 Mode of Payment : Card
 ```
 
+<div style="page-break-after: always;"></div>
+
 #### Viewing expenses by expense index
 ```
 View-Expense -e 1
@@ -534,6 +536,8 @@ Category        : Work Expenses
 Currency        : USD
 Mode of Payment : Card
 ```
+
+<div style="page-break-after: always;"></div>
 
 #### Viewing expenses containing specified keyword in name
 ```
@@ -619,6 +623,9 @@ Mode of Payment : Card
 
 The expense was edited sucessfully.
 ```
+
+<div style="page-break-after: always;"></div>
+
 ```
 Edit-Expense -e 1 -n "Flash Drive" -d "07/11/2022 1510" -t "Development Flash Drive"
 -a 26.00 -c "Work Expenses" -r "Submit invoice to finance" -x USD -p Card
@@ -678,6 +685,9 @@ Sort-Expense -t amount -o descending
 
 Your expenses have been sorted successfully.
 ```
+
+<div style="page-break-after: always;"></div>
+
 #### Sorting alphabetically in ascending order
 ```
 Sort-Expense -t alphabetical -o ascending
@@ -756,8 +766,6 @@ The expense's currency was changed successfully.
 <hr>
 <br>
 
-<div style="page-break-after: always;"></div>
-
 ### Adding a recurring payment: `Add-RecurringPayment`
 Adds a recurring payment to the list of recurring payments.
 
@@ -772,6 +780,8 @@ Syntax: `Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c
 > * `CURRENCY` is a text string. It must be a valid currency code.
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 Examples of usage:
 ```
@@ -842,6 +852,8 @@ Category        : Bills
 Currency        : SGD
 Mode of Payment : Card
 ```
+
+<div style="page-break-after: always;"></div>
 
 ```
 View-RecurringPayment -r 1
@@ -923,6 +935,9 @@ Currency        : SGD
 
 The recurring payment was edited successfully.
 ```
+
+<div style="page-break-after: always;"></div>
+
 ```
 Edit-RecurringPayment -r 0 -n "Mobile Plan 2" -i 30
 -t "Monthly payment for my 2nd mobile phone" -a 18.00 -c "Bills" -x SGD -p Card
@@ -999,8 +1014,6 @@ The recurring payment was added as an expense successfully.
 <hr>
 <br>
 
-<div style="page-break-after: always;"></div>
-
 ### Adding an income: `Add-Income`
 Adds a new income to the list of incomes.
 
@@ -1025,6 +1038,9 @@ Amount        : 3000.00
 
 The income was added successfully.
 ```
+
+<div style="page-break-after: always;"></div>
+
 ```
 Add-Income -n "Stocks" -a 500.00 -d "01/02/2022 2359" -t "Investment payouts"
         
@@ -1076,6 +1092,8 @@ Date and Time : 01 Feb 2022 23:59
 Description   : Investment payouts
 Amount        : 500.00
 ```
+
+<div style="page-break-after: always;"></div>
 
 #### Viewing incomes by income index
 
@@ -1151,6 +1169,9 @@ Amount        : 100.00
 
 The income was edited successfully.
 ```
+
+<div style="page-break-after: always;"></div>
+
 ```
 Edit-Income -e 1 -n "Monthly Salary" -a 3000 -d "01/01/2022 2359" -t "Monthly payment"
 
@@ -1185,8 +1206,6 @@ The income was edited successfully.
 <hr>
 <br>
 
-<div style="page-break-after: always;"></div>
-
 ### Adding a target: `Add-Target`
 Adds a new target to the list of targets.
 
@@ -1213,6 +1232,9 @@ Current Amount: 1500.00
 
 The target was added successfully.
 ```
+
+<div style="page-break-after: always;"></div>
+
 ```
 Add-Target -n "Food target" -a 1000.00 -c 1500.00 -d "01/02/2022 2359"
 -t "Money spent on food"
@@ -1268,6 +1290,8 @@ Description   : Money spent on food
 Amount        : 1000.00
 Current Amount: 1500.00
 ```
+
+<div style="page-break-after: always;"></div>
 
 #### Viewing targets by target index
 
@@ -1349,6 +1373,9 @@ Current Amount: 1500.00
 
 The target was edited successfully.
 ```
+
+<div style="page-break-after: always;"></div>
+
 ```
 Edit-Target -e 1 -n "Monthly Target" -a 3000 -c 1200 -d "01/01/2022 2359"
 -t "Monthly payment"
@@ -1503,7 +1530,6 @@ A list of all valid commands.
 | View command list | `Help`                      |
 | Exit              | `Bye`                       |
 
-<br>
 <br>
 
 ----
