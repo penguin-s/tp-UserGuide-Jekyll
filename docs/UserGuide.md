@@ -25,7 +25,7 @@ permalink: /userguide/
     * [Managing your recurring payments](#managing-your-recurring-payments)
     * [Managing your incomes](#managing-your-incomes)
     * [Managing your targets](#managing-your-targets)
-    * [Handling your data](#handling-your-data)
+    * [Managing your data](#managing-your-data)
     * [Exiting the application](#exiting-the-application-bye)
 * [FAQ](#faq)
 * [Command summary](#command-summary)
@@ -551,7 +551,7 @@ Mode of Payment : Card
 
 <div style="page-break-after: always;"></div>
 
-#### Viewing expenses containing a specified keyword within its name
+#### Viewing expenses containing a specific keyword within its name
 ```
 View-Expense -n "Work"
 
@@ -1075,6 +1075,8 @@ Syntax: `Add-Income -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION]`
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 Examples of usage:
 
 #### Adding an income using mandatory arguments
@@ -1089,9 +1091,6 @@ The income was added successfully.
 ```
 
 <br>
-
-<div style="page-break-after: always;"></div>
-
 
 #### Adding an income using mandatory and optional arguments
 ```
@@ -1281,6 +1280,8 @@ Syntax: `Add-Target -n NAME -a AMOUNT -c CURRENT_AMOUNT [-d DATE_TIME] [-t DESCR
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 Examples of usage:
 
 #### Adding a target using mandatory arguments
@@ -1296,8 +1297,6 @@ The target was added successfully.
 ```
 
 <br>
-
-<div style="page-break-after: always;"></div>
 
 #### Adding a target using mandatory and optional arguments
 ```
@@ -1474,24 +1473,24 @@ The target was edited successfully.
 
 <div style="page-break-after: always;"></div>
 
-## Handling your data
+## Managing your data
 By default, all lists are saved in the `MoneyGoWhereData.xml` file in the **Memory** folder created in the same directory as `MoneyGoWhere.jar`.
 
-All data is saved automatically and will not be lost when exiting the MoneyGoWhere.
+Rest assured that your data will be saved automatically and will not be lost when exiting the MoneyGoWhere.
 
 <br>
 <hr>
 <br>
 
 ### Merging a data file: `Merge-File`
-Merges save file from an external source given path to the .xml save file
+Merges the data from an external data file with the data from the current data file.
 
 <br>
 
 Syntax: `Merge-File -p PATH_STRING`
 
 {: .notes }
-> * `PATH_STRING` is text string. If your path contains spaces, you would need to wrap the text with double quotes.
+> * `PATH_STRING` is text string. If the path to your external data file contains spaces, you would need to wrap the path with double quotes.
 
 <br>
 
@@ -1608,6 +1607,3 @@ A list of all valid commands.
 | Exit              | `Bye`                       |
 
 <br>
-
-----
-
