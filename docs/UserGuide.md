@@ -431,6 +431,8 @@ Syntax: Syntax: `Add-Expense -n NAME -a AMOUNT [-d DATE-TIME] [-t DESCRIPTION] [
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 Examples of usage:
 ```
 Add-Expense -n Laptop -a 2999.90
@@ -465,6 +467,8 @@ The expense was added successfully.
 <br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### Viewing expense(s): `View-Expense`
 Displays past expenses you have added.
@@ -552,6 +556,8 @@ Mode of Payment : Card
 <br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### Deleting an expense: `Delete-Expense`
 Deletes an expense from the list of expenses.
@@ -801,6 +807,8 @@ The recurring payment was added successfully.
 <hr>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ### Viewing recurring payment(s): `View-RecurringPayment`
 Displays the past recurring payments you have added.
 
@@ -856,6 +864,8 @@ Mode of Payment : Card
 <hr>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ### Deleting a recurring payment: `Delete-RecurringPayment`
 Deletes a recurring payment from the list of recurring payments.
 
@@ -882,6 +892,8 @@ The recurring payment was deleted successfully.
 <br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### Editing a recurring payment: `Edit-RecurringPayment`
 Edits a recurring payment in the list of recurring payments.
@@ -935,6 +947,8 @@ The recurring payment was edited successfully.
 <hr>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ### Paying a recurring payment: `Pay-RecurringPayment`
 Adds an expense based on an existing recurring payment.
 
@@ -969,6 +983,8 @@ The recurring payment was added as an expense successfully.
 
 <br>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ## Managing your incomes
 
@@ -1028,6 +1044,8 @@ The income was added successfully.
 <hr>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ### Viewing income(s): `View-Income`
 Displays past incomes you have added.
 
@@ -1079,6 +1097,8 @@ Amount        : 500.00
 <hr>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ### Deleting an income: `Delete-Income`
 Deletes an income from the list of incomes.
 
@@ -1101,6 +1121,8 @@ The income was deleted successfully.
 <br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### Editing an income: `Edit-Income`
 Edits an existing income in the list of incomes.
@@ -1147,6 +1169,8 @@ The income was edited successfully.
 
 <br>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ## Managing your targets
 
@@ -1210,6 +1234,8 @@ The target was added successfully.
 <hr>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ### Viewing target(s): `View-Target`
 Displays past targets you have added.
 
@@ -1263,6 +1289,8 @@ Current Amount: 1500.00
 <br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### Deleting a target: `Delete-Target`
 Deletes a target from the list of targets.
@@ -1343,6 +1371,8 @@ The target was edited successfully.
 <hr>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ## Handling your data
 By default, all lists are saved in the `MoneyGoWhereData.xml` file in the **Memory** folder created in the same directory as `MoneyGoWhere.jar`.
 
@@ -1375,6 +1405,8 @@ Example of usage:
 <br>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ## Exiting the application: `Bye`
 
 Exits MoneyGoWhere.
@@ -1392,6 +1424,8 @@ Example of usage:
 <br>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ## FAQ
 
 A compilation of frequently asked questions that can help you clarify common misconceptions in using MoneyGoWhere.
@@ -1407,6 +1441,8 @@ A compilation of frequently asked questions that can help you clarify common mis
 
 <br>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ## Command Summary
 
