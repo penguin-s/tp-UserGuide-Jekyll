@@ -20,13 +20,13 @@ permalink: /userguide/
     * [Installation requirements](#installation-requirements)
     * [Basic commands](#basic-commands)
 * [Features](#features)
-    * [Listing all available commands: `Help`](#listing-all-available-commands-help)
+    * [Displaying the help menu](#displaying-the-help-menu-help)
     * [Managing your expenses](#managing-your-expenses)
     * [Managing your recurring payments](#managing-your-recurring-payments)
     * [Managing your incomes](#managing-your-incomes)
     * [Managing your targets](#managing-your-targets)
     * [Handling your data](#handling-your-data)
-    * [Exiting the application: `Bye`](#exiting-the-application-bye)
+    * [Exiting the application](#exiting-the-application-bye)
 * [FAQ](#faq)
 * [Command summary](#command-summary)
 
@@ -386,7 +386,7 @@ Your MoneyGoWhere? Let me help you track it.
 
 ## Features
 
-### Listing all available commands: `Help`
+### Displaying the help menu: `Help`
 Lists all valid commands for MoneyGoWhere.
 
 Syntax: `Help`
@@ -395,7 +395,7 @@ Example of usage:
 
 `Help`
 
-_If you would like a user-friendly view of all available commands, please refer to the [Command Summary](#command-summary) at the end of the guide._
+_If you would like a user-friendly overview of all available commands, please refer to the [Command Summary](#command-summary) at the end of the guide._
 
 <br>
 <br>
@@ -434,6 +434,8 @@ Syntax: Syntax: `Add-Expense -n NAME -a AMOUNT [-d DATE-TIME] [-t DESCRIPTION] [
 <div style="page-break-after: always;"></div>
 
 Examples of usage:
+
+#### Adding an expense using mandatory arguments 
 ```
 Add-Expense -n Laptop -a 2999.90
 
@@ -444,6 +446,10 @@ Currency        : SGD
 
 The expense was added successfully.
 ```
+
+<br>
+
+#### Adding an expense using mandatory and optional arguments
 ```
 Add-Expense -n "Work Laptop" -a 2999.90 -d "01/01/2022 1200" -t "Development Laptop"
 -c "Work Expenses" -r "Submit invoice to finance" -x SGD -p Card
@@ -509,9 +515,11 @@ Mode of Payment : PayLah
 Mode of Payment : Card
 ```
 
+<br>
+
 <div style="page-break-after: always;"></div>
 
-#### Viewing expenses by expense index
+#### Viewing an expense using an expense index
 ```
 View-Expense -e 1
 
@@ -523,6 +531,8 @@ Category        : Work Expenses
 Currency        : USD
 Mode of Payment : Card
 ```
+
+<br>
 
 #### Viewing expenses by category
 ```
@@ -537,9 +547,11 @@ Currency        : USD
 Mode of Payment : Card
 ```
 
+<br>
+
 <div style="page-break-after: always;"></div>
 
-#### Viewing expenses containing specified keyword in name
+#### Viewing expenses containing a specified keyword within its name
 ```
 View-Expense -n "Work"
 
@@ -576,6 +588,8 @@ Syntax: `Delete-Expense -e EXPENSE-INDEX`
 <br>
 
 Example of usage:
+
+#### Deleting an expense using an expense index
 ```
 Delete-Expense -e 1
 
@@ -609,6 +623,8 @@ Syntax: `Edit-Expense -e EXPENSE-INDEX [-n NAME] [-d DATE-TIME] [-t DESCRIPTION]
 <br>
 
 Examples of usage:
+
+#### Editing the amount attribute of an expense
 ```
 Edit-Expense -e 0 -a 2799.90
 
@@ -626,6 +642,9 @@ The expense was edited sucessfully.
 
 <div style="page-break-after: always;"></div>
 
+<br>
+
+#### Editing all the attributes of an expense
 ```
 Edit-Expense -e 1 -n "Flash Drive" -d "07/11/2022 1510" -t "Development Flash Drive"
 -a 26.00 -c "Work Expenses" -r "Submit invoice to finance" -x USD -p Card
@@ -673,28 +692,36 @@ Syntax: `Sort-Expense -t TYPE -o ORDER`
 
 Examples of usage:
 
-#### Sorting by date in ascending order
+#### Sorting expenses by date in ascending order
 ```
 Sort-Expense -t date -o ascending
 
 Your expenses have been sorted successfully.
 ```
-#### Sorting by amount in descending order
+
+<br>
+
+#### Sorting expenses by amount in descending order
 ```
 Sort-Expense -t amount -o descending
 
 Your expenses have been sorted successfully.
 ```
 
+<br>
+
 <div style="page-break-after: always;"></div>
 
-#### Sorting alphabetically in ascending order
+#### Sorting expenses alphabetically in ascending order
 ```
 Sort-Expense -t alphabetical -o ascending
 
 Your expenses have been sorted successfully.
 ```
-#### Sorting by currency (alphabetically) in descending order
+
+<br>
+
+#### Sorting expenses by currency in descending order
 ```
 Sort-Expense -t currency -o descending
 
@@ -728,6 +755,8 @@ Syntax: `Convert-Currency -e EXPENSE-INDEX -x CURRENCY [-r RATE]`
 <br>
 
 Example of usage:
+
+#### Converting the currency of expense index 1 to the Malaysian Ringgit using a custom exchange rate
 ```
 Convert-Currency -e 1 -x MYR -r 1.35
 
@@ -784,6 +813,8 @@ Syntax: `Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c
 <div style="page-break-after: always;"></div>
 
 Examples of usage:
+
+#### Adding a recurring payment using mandatory arguments
 ```
 Add-RecurringPayment -n "Mobile Plan 1" -i 30 -a 20.00
 
@@ -794,6 +825,10 @@ Currency        : SGD
 
 The recurring payment was added successfully.
 ```
+
+<br>
+
+#### Adding a recurring payment using mandatory and optional arguments
 ```
 Add-RecurringPayment -n "Mobile Plan 2" -i 30 -a 20.00
 -t "Monthly payment for my 2nd mobile plan" -c Bills -x SGD -p Card
@@ -834,6 +869,8 @@ Syntax: `View-RecurringPayment [-r RECURRINGPAYMENT-INDEX]`
 <br>
 
 Examples of usage:
+
+#### Viewing all recurring payments
 ```
 View-RecurringPayment
 
@@ -853,8 +890,11 @@ Currency        : SGD
 Mode of Payment : Card
 ```
 
+<br>
+
 <div style="page-break-after: always;"></div>
 
+#### Viewing a recurring payment using a recurring payment index
 ```
 View-RecurringPayment -r 1
 
@@ -891,6 +931,8 @@ Syntax: `Delete-RecurringPayment -r RECURRINGPAYMENT-INDEX`
 <br>
 
 Example of usage:
+
+#### Deleting a recurring payment using a recurring payment index
 ```
 Delete-RecurringPayment -r 1
 
@@ -924,6 +966,8 @@ Syntax: `Edit-RecurringPayment -r RECURRINGPAYMENT-INDEX [-n NAME] [-i INTERVAL]
 <br>
 
 Examples of usage:
+
+#### Editing the amount attribute of a recurring payment
 ```
 Edit-RecurringPayment -r 0 -a 18.00
 
@@ -938,6 +982,7 @@ The recurring payment was edited successfully.
 
 <div style="page-break-after: always;"></div>
 
+#### Editing all the attributes of a recurring payment
 ```
 Edit-RecurringPayment -r 0 -n "Mobile Plan 2" -i 30
 -t "Monthly payment for my 2nd mobile phone" -a 18.00 -c "Bills" -x SGD -p Card
@@ -978,6 +1023,8 @@ Syntax: `Pay-RecurringPayment -r RECURRING_PAYMENT_INDEX [-d DATE-TIME]`
 <br>
 
 Example of usage:
+
+#### Adding an expense based on a recurring payment
 ```
 Pay-RecurringPayment -r 1
 
@@ -1029,6 +1076,8 @@ Syntax: `Add-Income -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION]`
 <br>
 
 Examples of usage:
+
+#### Adding an income using mandatory arguments
 ```
 Add-Income -n "Salary" -a 3000.00
 
@@ -1039,8 +1088,12 @@ Amount        : 3000.00
 The income was added successfully.
 ```
 
+<br>
+
 <div style="page-break-after: always;"></div>
 
+
+#### Adding an income using mandatory and optional arguments
 ```
 Add-Income -n "Stocks" -a 500.00 -d "01/02/2022 2359" -t "Investment payouts"
         
@@ -1093,10 +1146,11 @@ Description   : Investment payouts
 Amount        : 500.00
 ```
 
+<br>
+
 <div style="page-break-after: always;"></div>
 
-#### Viewing incomes by income index
-
+#### Viewing an income using an income index
 ```
 View-Income -e 1
 
@@ -1130,6 +1184,8 @@ Syntax: `Delete-Income -e INCOME-INDEX`
 <br>
 
 Example of usage:
+
+#### Deleting an income using an income index
 ```
 Delete-Income -e 1
 
@@ -1158,11 +1214,13 @@ Syntax: `Edit-Income -e INCOME-INDEX [-n NAME] [-a AMOUNT] [-d DATE_TIME] [-t DE
 <br>
 
 Examples of usage:
+
+#### Editing the amount attribute of an income
 ```
-Edit-Income -e 1 -n Payout -a 100.00
+Edit-Income -e 1 -a 100.00
 
 ---- INCOME INDEX 1 ----
-Name          : Payout
+Name          : Stocks
 Date and Time : 01 Feb 2022 23:59
 Description   : Investment payouts
 Amount        : 100.00
@@ -1170,8 +1228,11 @@ Amount        : 100.00
 The income was edited successfully.
 ```
 
+<br>
+
 <div style="page-break-after: always;"></div>
 
+#### Editing all attributes of an income
 ```
 Edit-Income -e 1 -n "Monthly Salary" -a 3000 -d "01/01/2022 2359" -t "Monthly payment"
 
@@ -1222,6 +1283,7 @@ Syntax: `Add-Target -n NAME -a AMOUNT -c CURRENT_AMOUNT [-d DATE_TIME] [-t DESCR
 
 Examples of usage:
 
+#### Adding a target using mandatory arguments
 ```
 Add-Target -n "Salary" -a 3000.00 -c 1500.00
 
@@ -1233,8 +1295,11 @@ Current Amount: 1500.00
 The target was added successfully.
 ```
 
+<br>
+
 <div style="page-break-after: always;"></div>
 
+#### Adding a target using mandatory and optional arguments
 ```
 Add-Target -n "Food target" -a 1000.00 -c 1500.00 -d "01/02/2022 2359"
 -t "Money spent on food"
@@ -1291,9 +1356,11 @@ Amount        : 1000.00
 Current Amount: 1500.00
 ```
 
+<br>
+
 <div style="page-break-after: always;"></div>
 
-#### Viewing targets by target index
+#### Viewing a target using a target index
 
 ```
 View-Target -e 1
@@ -1329,6 +1396,8 @@ Syntax: `Delete-Target -e TARGET-INDEX`
 <br>
 
 Example of usage:
+
+#### Deleting a target using a target index
 ```
 Delete-Target -e 1
 
@@ -1361,21 +1430,26 @@ Syntax: `Edit-Target -e TARGET-INDEX [-n NAME] [-a AMOUNT] [-c CURRENT_AMOUNT] [
 <br>
 
 Examples of usage:
+
+#### Editing the amount attribute of a target
 ```
-Edit-Target -e 1 -n "October Target" -a 100.00
+Edit-Target -e 1 -a 100.00
 
 ---- TARGET INDEX 1 ----
-Name          : October Target
+Name          : Food target
 Date and Time : 01 Feb 2022 23:59
 Description   : Money spent on food
-Amount        : 1000.00
+Amount        : 100.00
 Current Amount: 1500.00
 
 The target was edited successfully.
 ```
 
+<br>
+
 <div style="page-break-after: always;"></div>
 
+#### Editing all attributes of a target
 ```
 Edit-Target -e 1 -n "Monthly Target" -a 3000 -c 1200 -d "01/01/2022 2359"
 -t "Monthly payment"
@@ -1423,7 +1497,10 @@ Syntax: `Merge-File -p PATH_STRING`
 
 Example of usage:
 
-`Merge-File -p "C:\Users\the_d\Downloads\expenses.xml"`
+#### Merging an external data file
+```
+Merge-File -p "C:\Users\the_d\Downloads\expenses.xml"
+```
 
 <br>
 
