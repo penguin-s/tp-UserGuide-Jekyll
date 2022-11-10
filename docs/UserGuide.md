@@ -162,8 +162,14 @@ The expense was added successfully.
 ```
 
 <br>
+
+[Back to Sub-Contents](#how-to-use-the-user-guide)
+
+<br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ##### Adding double quotes
 Argument values with double quotes should be escaped by prepending an additional double quote.
@@ -183,8 +189,14 @@ The expense was added successfully.
 ```
 
 <br>
+
+[Back to Sub-Contents](#how-to-use-the-user-guide)
+
+<br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ##### Limitation on adding double quotes
 Argument values cannot start and end with escaped double quotes.
@@ -204,8 +216,14 @@ The expense was added successfully.
 ``` 
 
 <br>
+
+[Back to Sub-Contents](#how-to-use-the-user-guide)
+
+<br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ##### Limitation on adding hyphens
 Argument values cannot be the same as the command's arguments.
@@ -226,6 +244,8 @@ SYNTAX: Add-Expense -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-c 
 
 <br>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ## Quick Start
 
