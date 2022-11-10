@@ -44,6 +44,8 @@ Although this application is mainly targeted at computing professionals who are 
 <br>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ## How to use the User Guide
 
 <br>
@@ -72,6 +74,8 @@ Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in
 <hr>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ### Understanding symbols used in the User Guide
 
 <br>
@@ -98,6 +102,8 @@ Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in
 <br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### Understanding the Command Syntax
 
@@ -131,6 +137,8 @@ Example: `Add-Expense -n NAME -a AMOUNT [-d DATE-TIME] [-t DESCRIPTION] [-c CATE
 <br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 #### Additional Syntax
 
