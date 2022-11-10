@@ -441,6 +441,7 @@ Syntax: `View-Expense [-e EXPENSE-INDEX] [-c CATEGORY] [-n NAME]`
 <br>
 
 Examples of usage:
+
 #### Viewing all expenses
 ```
 View-Expense
@@ -464,7 +465,7 @@ Mode of Payment : Card
 ```
 
 #### Viewing expenses by expense index
-
+```
 View-Expense -e 1
 
 ---- EXPENSE INDEX 1 ----
@@ -477,7 +478,7 @@ Mode of Payment : Card
 ```
 
 #### Viewing expenses by category
-
+```
 View-Expense -c "Work Expenses"
 
 ---- EXPENSE INDEX 0 ----
@@ -488,6 +489,7 @@ Category        : Work Expenses
 Currency        : USD
 Mode of Payment : Card
 ```
+
 #### Viewing expenses containing specified keyword in name
 ```
 View-Expense -n "Work"
