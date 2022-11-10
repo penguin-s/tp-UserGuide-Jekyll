@@ -63,6 +63,7 @@ Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in
     * [Basic Syntax](#basic-syntax)
     * [Additional Syntax](#additional-syntax)
         * [Adding spaces](#adding-spaces)
+        * [Adding double quotes](#adding-double-quotes)
         * [Limitation on adding double quotes](#limitation-on-adding-double-quotes)
         * [Limitation on adding hyphens](#limitation-on-adding-hyphens)
 * [Back to Contents](#contents)
@@ -142,6 +143,27 @@ Argument values with spaces should be enclosed with double quotes.
 
 Example:
 ```
+Add-Expense -n "Lunch at Marina Bay Sands" -a 1333.37
+
+Name            : Lunch at Marina Bay Sands
+Date and Time   : 07 Nov 2022 12:15
+Amount          : 1333.37
+Currency        : SGD
+
+The expense was added successfully.
+```
+
+<br>
+<hr>
+<br>
+
+##### Adding double quotes
+Argument values with double quotes should be escaped by prepending an additional double quote.
+
+<br>
+
+Example:
+```
 Add-Expense -n "Lunch at ""Marina Bay Sands""" -a 1333.37
 
 Name            : Lunch at "Marina Bay Sands"
@@ -178,7 +200,7 @@ The expense was added successfully.
 <br>
 
 ##### Limitation on adding hyphens
-Argument values cannot be the same as argument options.
+Argument values cannot be the same as the command's arguments.
 
 <br>
 
