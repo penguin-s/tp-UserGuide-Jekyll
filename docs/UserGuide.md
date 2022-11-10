@@ -302,6 +302,8 @@ Your MoneyGoWhere? Let me help you track it.
 <hr>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 #### On Mac OS
 
 1. Open the **Applications** folder and open **Utilities** to access **Terminal**.
@@ -324,6 +326,8 @@ Your MoneyGoWhere? Let me help you track it.
 <br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 #### On Linux OS
 
@@ -351,6 +355,8 @@ Your MoneyGoWhere? Let me help you track it.
 <br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### Basic commands
 
