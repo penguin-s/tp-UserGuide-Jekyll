@@ -58,8 +58,7 @@ Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in
 <hr>
 <br>
 
-#### Sub-Contents
-
+### Sub-Contents
 * [Understanding symbols used in the User Guide](#understanding-symbols-used-in-the-user-guide)
 * [Understanding the Command Syntax](#understanding-the-command-syntax)
     * [Basic Syntax](#basic-syntax)
@@ -252,7 +251,6 @@ SYNTAX: Add-Expense -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-c 
 ## Quick Start
 
 ### Sub-Contents
-
 * [Installation requirements](#installation-requirements)
 * [How to run MoneyGoWhere](#how-to-run-moneygowhere)
 * [Basic commands](#basic-commands)
@@ -740,7 +738,7 @@ The expense's currency was changed successfully.
 
 ## Managing your recurring payments
 
-## Sub-Contents
+### Sub-Contents
 * [Adding a recurring payment](#adding-a-recurring-payment-add-recurringpayment): `Add-RecurringPayment`
 * [Viewing recurring payment(s)](#viewing-recurring-payments-view-recurringpayment): `View-RecurringPayment`
 * [Deleting a recurring payment](#deleting-a-recurring-payment-delete-recurringpayment): `Delete-RecurringPayment`
@@ -974,7 +972,7 @@ The recurring payment was added as an expense successfully.
 
 ## Managing your incomes
 
-## Sub-Contents
+### Sub-Contents
 * [Adding an income](#adding-an-income-add-income): `Add-Income`
 * [Viewing income(s)](#viewing-incomes-view-income): `View-Income`
 * [Deleting an income](#deleting-an-income-delete-income): `Delete-Income`
@@ -1152,7 +1150,7 @@ The income was edited successfully.
 
 ## Managing your targets
 
-## Sub-Contents
+### Sub-Contents
 * [Adding a target](#adding-a-target-add-target): `Add-Target`
 * [Viewing target(s)](#viewing-targets-view-target): `View-Target`
 * [Deleting a target](#deleting-a-target-delete-target): `Delete-Target`
