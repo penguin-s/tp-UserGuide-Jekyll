@@ -99,10 +99,10 @@ Each of the sub-contents will also have a hyperlink to take you back to [Content
 <br>
 
 {: .invalid }
-> Cross symbols (❌) indicate **invalid** input into MoneyGoWhere.
+> Cross symbols (❌) indicate **invalid** inputs into MoneyGoWhere.
 
 {: .valid }
-> Tick symbols (✔️) indicate **valid** input into MoneyGoWhere.
+> Tick symbols (✔️) indicate **valid** inputs into MoneyGoWhere.
 
 {: .tips }
 > Information symbols (ℹ️) indicate **tips** or **notes** that contain **extra** information to clarify the usage of functions.
