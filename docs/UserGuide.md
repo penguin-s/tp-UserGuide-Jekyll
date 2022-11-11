@@ -11,7 +11,7 @@ permalink: /userguide/
 <p align="center"><img alt="icon" src="https://raw.githubusercontent.com/AY2223S1-CS2113T-W11-1/tp/master/docs/images/icon.png"></p>
 <br>
 
-<h3 align="center">The financial tracker built for the computing professional.</h3>
+<h2 align="center">The financial tracker built for the computing professional.</h2>
 
 <br>
 <br>
@@ -136,7 +136,7 @@ Each of the sub-contents will also have a hyperlink to take you back to [Content
 
 When inputting arguments:
 * The absence of square brackets denotes **mandatory** arguments.
-* Square brackets denote **optional** arguments.
+* The square brackets denote **optional** arguments.
 * The presence of invalid or extra arguments will be ignored by MoneyGoWhere.
 
 <br>
@@ -521,7 +521,7 @@ Syntax: `View-Expense [-e EXPENSE-INDEX] [-c CATEGORY] [-n NAME]`
 > * `EXPENSE-INDEX` is an integer value. This value should be equal to or greater than 0.
 > * `CATEGORY` and `NAME` are text strings.
 > * `CATEGORY` should be entered using its full name.
-> * The precedence of the optional arguments are as follows: `EXPENSE-INDEX`, `CATEGORY`, `NAME`. If any combination of these arguments is entered, MoneyGoWhere will display an output depending on their precedence.
+> * The precedence of the optional arguments are as follows: `EXPENSE-INDEX`, `CATEGORY`, `NAME`. If any combination of these arguments is entered, MoneyGoWhere will display an output according to their precedence.
 
 <br>
 
