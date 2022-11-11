@@ -624,7 +624,7 @@ Syntax: `Edit-Expense -e EXPENSE-INDEX [-n NAME] [-d DATE-TIME] [-t DESCRIPTION]
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
 > * `CURRENCY` is a text string. It must be a valid currency code.
 
-> * {: .tips }
+{: .tips }
 > * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
@@ -973,7 +973,7 @@ Syntax: `Edit-RecurringPayment -r RECURRINGPAYMENT-INDEX [-n NAME] [-i INTERVAL]
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
 > * `CURRENCY` is a text string. It must be a valid currency code.
 
-> * {: .tips }
+{: .tips }
 > * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
@@ -1033,7 +1033,7 @@ Syntax: `Pay-RecurringPayment -r RECURRING_PAYMENT_INDEX [-d DATE-TIME]`
 > * `RECURRING_PAYMENT_INDEX` is an integer value. This value should be equal to or greater than 0.
 > * `DATE-TIME` is a text string in the format `"dd/MM/yyyy HHmm"`. If this value is not provided, MoneyGoWhere will save the current date and time for you.
 
-> * {: .tips }
+{: .tips }
 > * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 > * You may exclude the `DATE-TIME` argument from the command and MoneyGoWhere will save the current date and time for you.
 
@@ -1090,7 +1090,7 @@ Syntax: `Add-Income -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION]`
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
 > * `DATE_TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
 
-> * {: .tips }
+{: .tips }
 > * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
@@ -1230,7 +1230,7 @@ Syntax: `Edit-Income -e INCOME-INDEX [-n NAME] [-a AMOUNT] [-d DATE_TIME] [-t DE
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
 > * `DATE_TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
 
-> * {: .tips }
+{: .tips }
 > * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
@@ -1301,7 +1301,7 @@ Syntax: `Add-Target -n NAME -a AMOUNT -c CURRENT_AMOUNT [-d DATE_TIME] [-t DESCR
 > * `AMOUNT` and `CURRENT_AMOUNT` are decimal value. The values should be greater than 0.
 > * `DATE_TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
 
-> * {: .tips }
+{: .tips }
 > * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
@@ -1452,7 +1452,7 @@ Syntax: `Edit-Target -e TARGET-INDEX [-n NAME] [-a AMOUNT] [-c CURRENT_AMOUNT] [
 > * `AMOUNT` and `CURRENT_AMOUNT` is a decimal value. The values should be greater than 0.
 > * `DATE_TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
 
-> * {: .tips }
+{: .tips }
 > * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
@@ -1521,7 +1521,7 @@ Syntax: `Merge-File -p PATH_STRING`
 {: .notes }
 > * `PATH_STRING` is text string.
 
-> * {: .tips }
+{: .tips }
 > * If the path to your external data file happens to contain spaces, please wrap the path with [double quotes](#adding-double-quotes).
 
 <br>
