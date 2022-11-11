@@ -11,6 +11,23 @@ permalink: /userguide/
 <p align="center"><img alt="icon" src="https://raw.githubusercontent.com/AY2223S1-CS2113T-W11-1/tp/master/docs/images/icon.png"></p>
 <br>
 
+
+
+## Introduction
+
+<br>
+
+MoneyGoWhere is a financial tracking application to help you manage your finances.
+
+Based on a Command Line Interface (CLI), you can add your `expenses`, `income` sources, spending `targets` and `recurring payments` to a trackable list that can be saved and accessed **anywhere, anytime**.
+
+Although this application is mainly targeted at computing professionals who are familiar with CLI, **you don't have to worry if you're not an expert** -- with the help of this User Guide, MoneyGoWhere can be **easy to pick up** and help you start organising your finances in a matter of **moments**.
+
+Head down to [How to use the User Guide](#how-to-use-the-user-guide) to get MoneyGoWhere up and running!
+
+<br>
+<br>
+
 ## Contents
 * [Introduction](#introduction)
 * [How to use the User Guide](#how-to-use-the-user-guide)
@@ -28,21 +45,6 @@ permalink: /userguide/
     * [Exiting the application](#exiting-the-application-bye)
 * [FAQ](#faq)
 * [Command summary](#command-summary)
-
-<br>
-<br>
-
-## Introduction
-
-<br>
-
-MoneyGoWhere is a financial tracking application to help you manage your finances.
-
-Based on a Command Line Interface (CLI), you can add your `expenses`, `income` sources, spending `targets` and `recurring payments` to a trackable list that can be saved and accessed **anywhere, anytime**.
-
-Although this application is mainly targeted at computing professionals who are familiar with CLI, **you don't have to worry if you're not an expert** -- with the help of this User Guide, MoneyGoWhere can be **easy to pick up** and help you start organising your finances in a matter of **moments**.
-
-Head down to [How to use the User Guide](#how-to-use-the-user-guide) to get MoneyGoWhere up and running!
 
 <br>
 <br>
@@ -670,6 +672,8 @@ The expense was edited sucessfully.
 ```
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 #### Editing all the attributes of an expense
 ```
