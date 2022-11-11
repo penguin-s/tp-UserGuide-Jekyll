@@ -114,10 +114,6 @@ Each list of sub-contents will also have a hyperlink to take you back to [Conten
 
 [Back to Sub-Contents](#how-to-use-the-user-guide)
 
-<br>
-<hr>
-<br>
-
 <div style="page-break-after: always;"></div>
 
 ### Understanding the Command Syntax
