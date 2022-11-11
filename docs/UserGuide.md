@@ -556,8 +556,6 @@ Mode of Payment : Card
 
 <br>
 
-<div style="page-break-after: always;"></div>
-
 #### Viewing expenses by category
 ```
 View-Expense -c "Work Expenses"
@@ -572,6 +570,8 @@ Mode of Payment : Card
 ```
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 #### Viewing expenses containing a specific keyword within its name
 ```
@@ -779,6 +779,8 @@ Syntax: `Convert-Currency -e EXPENSE-INDEX -x CURRENCY [-r RATE]`
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 Example of usage:
 
 #### Converting the currency of an expense to the Malaysian Ringgit using a custom exchange rate
@@ -804,6 +806,8 @@ The expense's currency was changed successfully.
 <br>
 <hr>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ## Managing your recurring payments
 
@@ -1057,6 +1061,8 @@ Syntax: `Pay-RecurringPayment -r RECURRING_PAYMENT_INDEX [-d DATE-TIME]`
 > * You may exclude the `DATE-TIME` argument from the command and MoneyGoWhere will save the current date and time for you.
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 Example of usage:
 
