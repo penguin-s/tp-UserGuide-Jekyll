@@ -11,7 +11,7 @@ permalink: /userguide/
 <p align="center"><img alt="icon" src="https://raw.githubusercontent.com/AY2223S1-CS2113T-W11-1/tp/master/docs/images/icon.png"></p>
 <br>
 
-
+<div style="page-break-after: always;"></div>
 
 ## Introduction
 
