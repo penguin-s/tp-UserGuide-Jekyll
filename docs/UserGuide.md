@@ -425,9 +425,12 @@ Adds a new expense to the list of expenses.
 Syntax: Syntax: `Add-Expense -n NAME -a AMOUNT [-d DATE-TIME] [-t DESCRIPTION] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE-OF-PAYMENT]`
 
 {: .notes }
-> * `NAME`, `DESCRIPTION`, `CATEGORY`, `REMARKS` and `MODE-OF-PAYMENT` are text strings. You may use spaces within the text if you wrap the text with double quotes.
-> * `DATE-TIME` is a text string in the format `"dd/MM/yyyy HHmm"`. If this value is not provided, MoneyGoWhere will save the current date and time for you.
+> * `NAME`, `DESCRIPTION`, `CATEGORY`, `REMARKS` and `MODE-OF-PAYMENT` are text strings.
+> * `DATE-TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
 > * `CURRENCY` is a text string. It must be a valid currency code.
+{: .tips }
+> * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
+> * You may exclude the `DATE-TIME` argument and MoneyGoWhere will save the current date and time for you.
 
 <br>
 
