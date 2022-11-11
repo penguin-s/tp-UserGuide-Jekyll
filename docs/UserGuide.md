@@ -683,7 +683,7 @@ The expense was edited sucessfully.
 
 <div style="page-break-after: always;"></div>
 
-#### Editing all the attributes of an expense
+#### Editing all attributes of an expense
 ```
 Edit-Expense -e 1 -n "Flash Drive" -d "07/11/2022 1510" -t "Development Flash Drive"
 -a 26.00 -c "Work Expenses" -r "Submit invoice to finance" -x USD -p Card
@@ -1032,7 +1032,7 @@ The recurring payment was edited successfully.
 
 <div style="page-break-after: always;"></div>
 
-#### Editing all the attributes of a recurring payment
+#### Editing all attributes of a recurring payment
 ```
 Edit-RecurringPayment -r 0 -n "Mobile Plan 2" -i 30
 -t "Monthly payment for my 2nd mobile phone" -a 18.00 -c "Bills" -x SGD -p Card
