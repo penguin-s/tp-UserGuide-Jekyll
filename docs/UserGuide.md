@@ -14,10 +14,9 @@ permalink: /userguide/
 ## Contents
 * [Introduction](#introduction)
 * [How to use the User Guide](#how-to-use-the-user-guide)
-    * [Understanding symbols used in the user guide](#understanding-symbols-used-in-the-user-guide)
+    * [Understanding the symbols used in the user guide](#understanding-the-symbols-used-in-the-user-guide)
     * [Understanding the command syntax](#understanding-the-command-syntax)
 * [Quick start](#quick-start)
-    * [Installation requirements](#installation-requirements)
     * [Basic commands](#basic-commands)
 * [Features](#features)
     * [Displaying the help menu](#displaying-the-help-menu-help)
@@ -71,11 +70,9 @@ Each list of sub-contents will also have a hyperlink to take you back to [Conten
 **Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in a snap.**
 
 <br>
-<hr>
-<br>
 
 ### Sub-Contents
-* [Understanding symbols used in the User Guide](#understanding-symbols-used-in-the-user-guide)
+* [Understanding the symbols used in the User Guide](#understanding-the-symbols-used-in-the-user-guide)
 * [Understanding the Command Syntax](#understanding-the-command-syntax)
     * [Basic Syntax](#basic-syntax)
     * [Additional Syntax](#additional-syntax)
@@ -91,7 +88,7 @@ Each list of sub-contents will also have a hyperlink to take you back to [Conten
 
 <div style="page-break-after: always;"></div>
 
-### Understanding symbols used in the User Guide
+### Understanding the symbols used in the User Guide
 
 <br>
 
@@ -270,25 +267,9 @@ SYNTAX: Add-Expense -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-c 
 ## Quick Start
 
 ### Sub-Contents
-* [Installation requirements](#installation-requirements)
 * [How to run MoneyGoWhere](#how-to-run-moneygowhere)
 * [Basic commands](#basic-commands)
 * [Back to Contents](#contents)
-
-<br>
-<hr>
-<br>
-
-### Installation requirements
-
-1. Ensure that ```Java 11``` is installed on your system.
-    1. Execute the command ```java --version``` in your terminal window.
-    2. Verify that the version of Java installed is ```Java 11```.
-2. Ensure that you have write permissions for the directory in which you are executing the program.
-
-<br>
-
-[Back to Sub-Contents](#quick-start)
 
 <br>
 <hr>
@@ -300,9 +281,17 @@ SYNTAX: Add-Expense -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-c 
 
 #### On Windows OS
 
-1. Open the **Command Prompt**.
-2. Execute the command  `java -jar MoneyGoWhere.jar`
-3. When successfully run, MoneyGoWhere should display the following message:
+1. Navigate to [our repository](https://github.com/AY2223S1-CS2113T-W11-1/tp/releases) to download the latest release of MoneyGoWhere.
+2. If you are running **Windows 10** or earlier, select **Windows Powershell** from the start menu to launch the Windows Powershell Terminal.
+3. If you are running **Windows 11** or later, select **Terminal** from the start menu to launch the Windows Terminal.
+4. Execute the command `java --version` in your terminal window to verify that **Java 11** is installed on your system.
+   ```
+   java 11.0.16 2022-07-19 LTS
+   ``` 
+5. Execute the command  `java -jar MoneyGoWhere.jar` to launch MoneyGoWhere
+6. When successfully run, MoneyGoWhere should display the following message:
+
+<div style="page-break-after: always;"></div>
 
 ```
   __  __                         _____   __          ___                   
@@ -328,9 +317,14 @@ Your MoneyGoWhere? Let me help you track it.
 
 #### On Mac OS
 
-1. Open the **Applications** folder and open **Utilities** to access **Terminal**.
-2. Execute the command  `java -jar MoneyGoWhere.jar`
-3. When successfully run, MoneyGoWhere should display the following message:
+1. Navigate to [our repository](https://github.com/AY2223S1-CS2113T-W11-1/tp/releases) to download the latest release of MoneyGoWhere.
+2. Open the **Applications** folder and open **Utilities**. Select **Terminal** to launch the Mac OS Terminal.
+3. Execute the command `java --version` in your terminal window to verify that **Java 11** is installed on your system.
+   ```
+   java 11.0.16 2022-07-19 LTS
+   ``` 
+4. Execute the command  `java -jar MoneyGoWhere.jar`
+5. When successfully run, MoneyGoWhere should display the following message:
 
 ```
   __  __                         _____   __          ___                   
@@ -357,9 +351,14 @@ Your MoneyGoWhere? Let me help you track it.
 
 #### On Linux OS
 
-1. Navigate to the **terminal** by locating it your **launcher** or by searching it in **Activities** at the top left of the screen.
-2. Execute the command  `java -jar MoneyGoWhere.jar`
-3. When successfully run, MoneyGoWhere should display the following message:
+1. Navigate to [our repository](https://github.com/AY2223S1-CS2113T-W11-1/tp/releases) to download the latest release of MoneyGoWhere.
+2. Open the **Launcher** and select **Terminal** to launch the Linux Terminal.
+3. Execute the command `java --version` in your terminal window to verify that **Java 11** is installed on your system.
+   ```
+   java 11.0.16 2022-07-19 LTS
+   ``` 
+4. Execute the command  `java -jar MoneyGoWhere.jar`
+5. When successfully run, MoneyGoWhere should display the following message:
 
 ```
   __  __                         _____   __          ___                   
