@@ -541,8 +541,6 @@ Mode of Payment : Card
 
 <br>
 
-<div style="page-break-after: always;"></div>
-
 #### Viewing an expense using an expense index
 ```
 View-Expense -e 1
@@ -558,6 +556,8 @@ Mode of Payment : Card
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 #### Viewing expenses by category
 ```
 View-Expense -c "Work Expenses"
@@ -572,8 +572,6 @@ Mode of Payment : Card
 ```
 
 <br>
-
-<div style="page-break-after: always;"></div>
 
 #### Viewing expenses containing a specific keyword within its name
 ```
@@ -804,9 +802,8 @@ The expense's currency was changed successfully.
 [Back to Sub-Contents](#managing-your-expenses)
 
 <br>
+<hr>
 <br>
-
-<div style="page-break-after: always;"></div>
 
 ## Managing your recurring payments
 
@@ -1084,8 +1081,6 @@ The recurring payment was added as an expense successfully.
 
 <br>
 <br>
-
-<div style="page-break-after: always;"></div>
 
 ## Managing your incomes
 
@@ -1562,8 +1557,6 @@ Merge-File -p "C:\Users\the_d\Downloads\expenses.xml"
 <br>
 <br>
 
-<div style="page-break-after: always;"></div>
-
 ## Exiting the application: `Bye`
 
 Exits MoneyGoWhere. 
@@ -1635,6 +1628,8 @@ An overview of all valid commands that you can use in MoneyGoWhere.
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ### Recurring Payments
 
 | Command                   | Syntax                                                                                                                                                  |
@@ -1646,6 +1641,8 @@ An overview of all valid commands that you can use in MoneyGoWhere.
 | Pay recurring payment     | `Pay-RecurringPayment -r RECURRINGPAYMENT-INDEX [-d dd/MM/yyyy HHmm]`                                                                                   |
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### Incomes
 
