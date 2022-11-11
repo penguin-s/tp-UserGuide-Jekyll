@@ -386,15 +386,18 @@ Your MoneyGoWhere? Let me help you track it.
 
 ### Basic commands
 
-| Command               | Syntax                                                                                                                              |
-|:----------------------|:------------------------------------------------------------------------------------------------------------------------------------|
-| Add expense           | `Add-Expense -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE-OF-PAYMENT]` |
-| View expense(s)       | `View-Expense [-e EXPENSE-INDEX] [-c CATEGORY] [-n NAME]`                                                                           |
-| Add recurring payment | `Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY] [-p MODE-OF-PAYMENT]`              |
-| Add income            | `Add-Income -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                                                                |
-| Add target            | `Add-Target -n NAME -a AMOUNT -c CURRENT-AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                                              |
-| View command list     | `Help`                                                                                                                              |
-| Exit                  | `Bye`                                                                                                                               |
+| Command                   | Syntax                                                                                                                              |
+|:--------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
+| Add expense               | `Add-Expense -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE-OF-PAYMENT]` |
+| View expense(s)           | `View-Expense [-e EXPENSE-INDEX] [-c CATEGORY] [-n NAME]`                                                                           |
+| Add recurring payment     | `Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY] [-p MODE-OF-PAYMENT]`              |
+| View recurring payment(s) | `View-RecurringPayment [-r RECURRINGPAYMENT-INDEX]`                                                                                 |
+| Add income                | `Add-Income -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                                                                |
+| View income(s)            | `View-Income [-e INCOME-INDEX]`                                                                                                     |
+| Add target                | `Add-Target -n NAME -a AMOUNT -c CURRENT-AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                                              |
+| View target(s)            | `View-Target [-e TARGET-INDEX]`                                                                                                     |
+| View command list         | `Help`                                                                                                                              |
+| Exit                      | `Bye`                                                                                                                               |
 
 <br>
 
@@ -1604,12 +1607,13 @@ A compilation of frequently asked questions that can help you clarify common mis
 
 A list of all valid commands.
 
+
 ### Expenses
 
 | Command          | Syntax                                                                                                                                                    |
 |:-----------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Add expense      | `Add-Expense -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE OF PAYMENT]`                             |
-| View expenses    | `View-Expense [-e EXPENSE-INDEX] [-c EXPENSE-CATEGORY] [-n EXPENSE-NAME]`                                                                                 |
+| View expense(s)  | `View-Expense [-e EXPENSE-INDEX] [-c EXPENSE-CATEGORY] [-n EXPENSE-NAME]`                                                                                 |
 | Delete expense   | `Delete-Expense -e EXPENSE-INDEX`                                                                                                                         |
 | Edit expense     | `Edit-Expense -e EXPENSE-INDEX [-n NAME] [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-a AMOUNT] [-c CATEGORY] [-r REMARKS] [-x CURRENCY] [-p MODE OF PAYMENT]` |
 | Sort expense     | `Sort-Expense -t Alphabetical/Amount/Date/Currency -o Ascending/Descending`                                                                               |
@@ -1619,13 +1623,13 @@ A list of all valid commands.
 
 ### Recurring Payments
 
-| Command                  | Syntax                                                                                                                                                  |
-|:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Add recurring payment    | `Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY] [-p MODE-OF-PAYMENT]`                                  |
-| View recurring payments  | `View-RecurringPayment [-r RECURRINGPAYMENT-INDEX]`                                                                                                     |
-| Delete recurring payment | `Delete-RecurringPayment -r RECURRINGPAYMENT-INDEX`                                                                                                     |
-| Edit recurring payment   | `Edit-RecurringPayment -r RECURRINGPAYMENT-INDEX [-n NAME] [-i INTERVAL] [-a AMOUNT] [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY] [-p MODE-OF-PAYMENT]` |
-| Pay recurring payment    | `Pay-RecurringPayment -r RECURRINGPAYMENT-INDEX [-d dd/MM/yyyy HHmm]`                                                                                   |
+| Command                   | Syntax                                                                                                                                                  |
+|:--------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Add recurring payment     | `Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY] [-p MODE-OF-PAYMENT]`                                  |
+| View recurring payment(s) | `View-RecurringPayment [-r RECURRINGPAYMENT-INDEX]`                                                                                                     |
+| Delete recurring payment  | `Delete-RecurringPayment -r RECURRINGPAYMENT-INDEX`                                                                                                     |
+| Edit recurring payment    | `Edit-RecurringPayment -r RECURRINGPAYMENT-INDEX [-n NAME] [-i INTERVAL] [-a AMOUNT] [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY] [-p MODE-OF-PAYMENT]` |
+| Pay recurring payment     | `Pay-RecurringPayment -r RECURRINGPAYMENT-INDEX [-d dd/MM/yyyy HHmm]`                                                                                   |
 
 <br>
 
@@ -1634,20 +1638,20 @@ A list of all valid commands.
 | Command        | Syntax                                                                                    |
 |:---------------|:------------------------------------------------------------------------------------------|
 | Add income     | `Add-Income -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                      |
-| View incomes   | `View-Income [-e INCOME-INDEX]`                                                           |
-| Delete incomes | `Delete-Income -e INCOME-INDEX`                                                           |
+| View income(s) | `View-Income [-e INCOME-INDEX]`                                                           |
+| Delete income  | `Delete-Income -e INCOME-INDEX`                                                           |
 | Edit income    | `Edit-Income -e INCOME-INDEX [-n NAME] [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-a AMOUNT]` |
 
 <br>
 
 ### Targets
 
-| Command       | Syntax                                                                                                        |
-|:--------------|:--------------------------------------------------------------------------------------------------------------|
-| Add target    | `Add-Target -n NAME -a AMOUNT -c CURRENT-AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                        |
-| View targets  | `View-Target [-e TARGET-INDEX]`                                                                               |
-| Delete target | `Delete-Target -e TARGET-INDEX`                                                                               |
-| Edit target   | `Edit-Target -e TARGET-INDEX [-n NAME] [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-a AMOUNT] [-c CURRENT-AMOUNT]` |
+| Command        | Syntax                                                                                                        |
+|:---------------|:--------------------------------------------------------------------------------------------------------------|
+| Add target     | `Add-Target -n NAME -a AMOUNT -c CURRENT-AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION]`                        |
+| View target(s) | `View-Target [-e TARGET-INDEX]`                                                                               |
+| Delete target  | `Delete-Target -e TARGET-INDEX`                                                                               |
+| Edit target    | `Edit-Target -e TARGET-INDEX [-n NAME] [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-a AMOUNT] [-c CURRENT-AMOUNT]` |
 
 <br>
 
@@ -1659,4 +1663,9 @@ A list of all valid commands.
 | View command list | `Help`                      |
 | Exit              | `Bye`                       |
 
+<br>
+
+[Back to Contents](#contents)
+
+<br>
 <br>
