@@ -60,9 +60,7 @@ In [Contents](#contents), each section *(e.g. [How to use the User Guide](#how-t
 
 When navigating through the User Guide, there will be a hyperlink at the bottom of each section that will take you to back to [Contents](#contents). 
 
-However, some sections may have a list of sub-contents as well.
-
-These sub-contents will let you navigate through the subsections in that particular section.
+However, some sections may have a list of sub-contents as well. These sub-contents will let you navigate through the subsections in that particular section.
 
 Hyperlinks will also be available at the bottom of every subsection *(e.g. [Adding an expense](#adding-an-expense-add-expense))* to take you back to the sub-contents of that section.
 
