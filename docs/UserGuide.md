@@ -1619,7 +1619,7 @@ A compilation of frequently asked questions that can help you clarify common mis
 > Does this application work over a remote terminal shell?
 > <div markdown="block">
 > {: .answer }
-> Yes, MoneyGoWhere does work over a remote terminal shell. 
+> Yes, MoneyGoWhere does work over a remote terminal shell such as the Secure Shell (SSH). 
 > </div>
 
 <br>
