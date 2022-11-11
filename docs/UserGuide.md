@@ -11,6 +11,31 @@ permalink: /userguide/
 <p align="center"><img alt="icon" src="https://raw.githubusercontent.com/AY2223S1-CS2113T-W11-1/tp/master/docs/images/icon.png"></p>
 <br>
 
+<h2 align="center">The financial tracker built for the computing professional.</h2>
+
+<br>
+<br>
+<br>
+
+<div style="page-break-after: always;"></div>
+
+## Introduction
+
+<br>
+
+MoneyGoWhere is a financial tracking application to help you manage your finances.
+
+Based on a Command Line Interface (CLI), you can add your `expenses`, `income` sources, spending `targets` and `recurring payments` to a trackable list that can be saved and accessed **anywhere, anytime**.
+
+Although this application is mainly targeted at computing professionals who are familiar with CLI, **you don't have to worry if you're not an expert** -- with the help of this User Guide, MoneyGoWhere can be **easy to pick up** and help you start organising your finances in a matter of **moments**.
+
+Head down to [How to use the User Guide](#how-to-use-the-user-guide) to get MoneyGoWhere up and running!
+
+<br>
+<br>
+
+<div style="page-break-after: always;"></div>
+
 ## Contents
 * [Introduction](#introduction)
 * [How to use the User Guide](#how-to-use-the-user-guide)
@@ -28,21 +53,6 @@ permalink: /userguide/
     * [Exiting the application](#exiting-the-application-bye)
 * [FAQ](#faq)
 * [Command summary](#command-summary)
-
-<br>
-<br>
-
-## Introduction
-
-<br>
-
-MoneyGoWhere is a financial tracking application to help you manage your finances.
-
-Based on a Command Line Interface (CLI), you can add your `expenses`, `income` sources, spending `targets` and `recurring payments` to a trackable list that can be saved and accessed **anywhere, anytime**.
-
-Although this application is mainly targeted at computing professionals who are familiar with CLI, **you don't have to worry if you're not an expert** -- with the help of this User Guide, MoneyGoWhere can be **easy to pick up** and help you start organising your finances in a matter of **moments**.
-
-Head down to [How to use the User Guide](#how-to-use-the-user-guide) to get MoneyGoWhere up and running!
 
 <br>
 <br>
@@ -89,10 +99,10 @@ Each of the sub-contents will also have a hyperlink to take you back to [Content
 <br>
 
 {: .invalid }
-> Cross symbols (❌) indicate **invalid** input into MoneyGoWhere.
+> Cross symbols (❌) indicate **invalid** inputs into MoneyGoWhere.
 
 {: .valid }
-> Tick symbols (✔️) indicate **valid** input into MoneyGoWhere.
+> Tick symbols (✔️) indicate **valid** inputs into MoneyGoWhere.
 
 {: .tips }
 > Information symbols (ℹ️) indicate **tips** or **notes** that contain **extra** information to clarify the usage of functions.
@@ -126,7 +136,7 @@ Each of the sub-contents will also have a hyperlink to take you back to [Content
 
 When inputting arguments:
 * The absence of square brackets denotes **mandatory** arguments.
-* Square brackets denote **optional** arguments.
+* The square brackets denote **optional** arguments.
 * The presence of invalid or extra arguments will be ignored by MoneyGoWhere.
 
 <br>
@@ -401,6 +411,8 @@ Your MoneyGoWhere? Let me help you track it.
 <br>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ## Features
 
 ### Displaying the help menu: `Help`
@@ -413,6 +425,10 @@ Example of usage:
 `Help`
 
 _If you would like a user-friendly overview of all available commands, please refer to the [Command Summary](#command-summary) at the end of the guide._
+
+<br>
+
+[Back to Contents](#contents)
 
 <br>
 <br>
@@ -432,6 +448,7 @@ _If you would like a user-friendly overview of all available commands, please re
 <hr>
 <br>
 
+<div style="page-break-after: always;"></div>
 
 ### Adding an expense: `Add-Expense`
 
@@ -508,9 +525,11 @@ Syntax: `View-Expense [-e EXPENSE-INDEX] [-c CATEGORY] [-n NAME]`
 > * `EXPENSE-INDEX` is an integer value. This value should be equal to or greater than 0.
 > * `CATEGORY` and `NAME` are text strings.
 > * `CATEGORY` should be entered using its full name.
-> * The precedence of the optional arguments are as follows: `EXPENSE-INDEX`, `CATEGORY`, `NAME`. If any combination of these arguments is entered, MoneyGoWhere will display an output depending on their precedence.
+> * The precedence of the optional arguments are as follows: `EXPENSE-INDEX`, `CATEGORY`, `NAME`. If any combination of these arguments is entered, MoneyGoWhere will display an output according to their precedence.
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 Examples of usage:
 
@@ -538,8 +557,6 @@ Mode of Payment : Card
 
 <br>
 
-<div style="page-break-after: always;"></div>
-
 #### Viewing an expense using an expense index
 ```
 View-Expense -e 1
@@ -555,6 +572,8 @@ Mode of Payment : Card
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 #### Viewing expenses by category
 ```
 View-Expense -c "Work Expenses"
@@ -569,8 +588,6 @@ Mode of Payment : Card
 ```
 
 <br>
-
-<div style="page-break-after: always;"></div>
 
 #### Viewing expenses containing a specific keyword within its name
 ```
@@ -646,6 +663,8 @@ Syntax: `Edit-Expense -e EXPENSE-INDEX [-n NAME] [-d DATE-TIME] [-t DESCRIPTION]
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 Examples of usage:
 
 #### Editing the amount attribute of an expense
@@ -664,11 +683,11 @@ Mode of Payment : Card
 The expense was edited sucessfully.
 ```
 
-<div style="page-break-after: always;"></div>
-
 <br>
 
-#### Editing all the attributes of an expense
+<div style="page-break-after: always;"></div>
+
+#### Editing all attributes of an expense
 ```
 Edit-Expense -e 1 -n "Flash Drive" -d "07/11/2022 1510" -t "Development Flash Drive"
 -a 26.00 -c "Work Expenses" -r "Submit invoice to finance" -x USD -p Card
@@ -778,6 +797,8 @@ Syntax: `Convert-Currency -e EXPENSE-INDEX -x CURRENCY [-r RATE]`
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 Example of usage:
 
 #### Converting the currency of an expense to the Malaysian Ringgit using a custom exchange rate
@@ -801,6 +822,7 @@ The expense's currency was changed successfully.
 [Back to Sub-Contents](#managing-your-expenses)
 
 <br>
+<hr>
 <br>
 
 <div style="page-break-after: always;"></div>
@@ -1014,7 +1036,7 @@ The recurring payment was edited successfully.
 
 <div style="page-break-after: always;"></div>
 
-#### Editing all the attributes of a recurring payment
+#### Editing all attributes of a recurring payment
 ```
 Edit-RecurringPayment -r 0 -n "Mobile Plan 2" -i 30
 -t "Monthly payment for my 2nd mobile phone" -a 18.00 -c "Bills" -x SGD -p Card
@@ -1057,6 +1079,8 @@ Syntax: `Pay-RecurringPayment -r RECURRING_PAYMENT_INDEX [-d DATE-TIME]`
 > * You may exclude the `DATE-TIME` argument from the command and MoneyGoWhere will save the current date and time for you.
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 Example of usage:
 
@@ -1522,8 +1546,7 @@ The target was edited successfully.
 <div style="page-break-after: always;"></div>
 
 ## Managing your data
-By default, all lists are saved in the `MoneyGoWhereData.xml` file in the **Memory** folder created in the same directory as `MoneyGoWhere.jar`.
-
+By default, all lists are saved in the `MoneyGoWhereData.xml` file in the **Memory** folder created in the same directory as `MoneyGoWhere.jar`. 
 Rest assured that your data will be saved automatically and will not be lost when exiting the MoneyGoWhere.
 
 <br>
@@ -1558,8 +1581,6 @@ Merge-File -p "C:\Users\the_d\Downloads\expenses.xml"
 
 <br>
 <br>
-
-<div style="page-break-after: always;"></div>
 
 ## Exiting the application: `Bye`
 
@@ -1602,7 +1623,7 @@ A compilation of frequently asked questions that can help you clarify common mis
 > Does this application work over a remote terminal shell?
 > <div markdown="block">
 > {: .answer }
-> Yes, MoneyGoWhere does work over a remote terminal shell. 
+> Yes, MoneyGoWhere does work over a remote terminal shell such as the Secure Shell (SSH). 
 > </div>
 
 <br>
@@ -1632,6 +1653,8 @@ An overview of all valid commands that you can use in MoneyGoWhere.
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ### Recurring Payments
 
 | Command                   | Syntax                                                                                                                                                  |
@@ -1643,6 +1666,8 @@ An overview of all valid commands that you can use in MoneyGoWhere.
 | Pay recurring payment     | `Pay-RecurringPayment -r RECURRINGPAYMENT-INDEX [-d dd/MM/yyyy HHmm]`                                                                                   |
 
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ### Incomes
 
