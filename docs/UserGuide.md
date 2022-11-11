@@ -515,6 +515,8 @@ Syntax: `View-Expense [-e EXPENSE-INDEX] [-c CATEGORY] [-n NAME]`
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 Examples of usage:
 
 #### Viewing all expenses
@@ -556,6 +558,8 @@ Mode of Payment : Card
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 #### Viewing expenses by category
 ```
 View-Expense -c "Work Expenses"
@@ -570,8 +574,6 @@ Mode of Payment : Card
 ```
 
 <br>
-
-<div style="page-break-after: always;"></div>
 
 #### Viewing expenses containing a specific keyword within its name
 ```
@@ -647,6 +649,8 @@ Syntax: `Edit-Expense -e EXPENSE-INDEX [-n NAME] [-d DATE-TIME] [-t DESCRIPTION]
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 Examples of usage:
 
 #### Editing the amount attribute of an expense
@@ -664,8 +668,6 @@ Mode of Payment : Card
 
 The expense was edited sucessfully.
 ```
-
-<div style="page-break-after: always;"></div>
 
 <br>
 
@@ -1087,6 +1089,8 @@ The recurring payment was added as an expense successfully.
 
 <br>
 <br>
+
+<div style="page-break-after: always;"></div>
 
 ## Managing your incomes
 
