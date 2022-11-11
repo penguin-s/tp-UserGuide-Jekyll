@@ -102,7 +102,7 @@ Each list of sub-contents will also have a hyperlink to take you back to [Conten
 > Information symbols (ℹ️) indicate **tips** or **notes** that contain extra information to clarify functions for you.
 
 {: .notes }
-> Warning symbols (⚠️) indicate **precautions** that you should take when using the function.
+> Light-bulb symbols (💡) indicate **precautions** that you should take when using the function.
 
 {: .question }
 > Question symbols (❓) indicate common **enquiries** that users ask about MoneyGoWhere.
@@ -1596,6 +1596,19 @@ A compilation of frequently asked questions that can help you clarify common mis
 > {: .answer }
 > As you enter data into MoneyGoWhere, it creates a **Memory** folder in the same directory as the `MoneyGoWhere.jar` file. To merge the copied file, open the **Memory** folder and transfer `MoneyGoWhereData.xml`** to another computer. Then, run the [`Merge-File`](#merging-a-data-file-merge-file) command to merge the copied file.
 > </div>
+
+<br>
+
+{: .question }
+> Does this application work over a remote terminal shell?
+> <div markdown="block">
+> {: .answer }
+> Yes, MoneyGoWhere does work over a remote terminal shell. 
+> </div>
+
+<br>
+
+[Back to Contents](#contents)
 
 <br>
 <br>
