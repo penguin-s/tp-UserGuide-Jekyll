@@ -513,7 +513,7 @@ Syntax: `View-Expense [-e EXPENSE-INDEX] [-c CATEGORY] [-n NAME]`
 > * `EXPENSE-INDEX` is an integer value. This value should be equal to or greater than 0.
 > * `CATEGORY` and `NAME` are text strings.
 > * `CATEGORY` should be entered using its full name.
-> * The optional arguments can only be used one at a time.
+> * The precedence of the optional arguments are as follows: `EXPENSE-INDEX`, `CATEGORY`, `NAME`. If any combination of these arguments is entered, MoneyGoWhere will display an output depending on their precedence.
 
 <br>
 
