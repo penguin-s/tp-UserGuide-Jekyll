@@ -619,11 +619,12 @@ Syntax: `Edit-Expense -e EXPENSE-INDEX [-n NAME] [-d DATE-TIME] [-t DESCRIPTION]
 
 {: .notes }
 > * `EXPENSE-INDEX` is an integer value. This value should be equal to or greater than 0.
-> * `NAME`, `DESCRIPTION`, `CATEGORY`, `REMARKS` and `MODE-OF-PAYMENT` are text strings. You may use spaces within the text if you wrap the text with double quotes.
+> * `NAME`, `DESCRIPTION`, `CATEGORY`, `REMARKS` and `MODE-OF-PAYMENT` are text strings.
 > * `DATE-TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
 > * `CURRENCY` is a text string. It must be a valid currency code.
-  {: .tips }
+
+> * {: .tips }
 > * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
@@ -682,7 +683,7 @@ The expense was edited successfully.
 Sorts the list of expenses according to an alphabetical, amount, date or currency order. It can be sorted in both ascending and
 descending order.
 
-> ℹ️ Tips
+{: .tips }
 > 1. By default, expenses are sorted in alphabetical order, from A to Z. Expenses are sorted **automatically** whenever a new expense is added, or if an existing expense is edited.
 > 2. The nature of this feature could cause the indexes of the expenses to change while running MoneyGoWhere. Please use `View-Expense` to get the most updated indexes of the expenses.
 
