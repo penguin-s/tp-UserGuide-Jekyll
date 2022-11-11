@@ -70,8 +70,6 @@ Each list of sub-contents will also have a hyperlink to take you back to [Conten
 **Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in a snap.**
 
 <br>
-<hr>
-<br>
 
 ### Sub-Contents
 * [Understanding the symbols used in the User Guide](#understanding-the-symbols-used-in-the-user-guide)
