@@ -55,15 +55,11 @@ Head down to [How to use the User Guide](#how-to-use-the-user-guide) to get Mone
 
 When using the user guide, you should first refer to [Contents](#contents) to quickly navigate between sections.
 
-In [Contents](#contents), each section *(e.g. [How to use the User Guide](#how-to-use-the-user-guide))* in the User Guide is listed as a point.
+For certain sections *(e.g. [Managing your expenses](#managing-your-expenses))* in [Contents](#contents), there will be sub-contents that will let you navigate between subsections *(e.g. [Adding an expense](#adding-an-expense-add-expense))* within that section.
 
-When navigating through the User Guide, there will be a hyperlink at the bottom of each section that will take you to back to [Contents](#contents). 
+At the bottom of every section and subsection, there will be hyperlinks that will take you to back to [Contents](#contents) and the sub-contents of that section respectively.
 
-However, some sections may have a list of sub-contents as well. These sub-contents will let you navigate through the subsections in that particular section.
-
-Hyperlinks will also be available at the bottom of every subsection *(e.g. [Adding an expense](#adding-an-expense-add-expense))* to take you back to the sub-contents of that section.
-
-Each list of sub-contents will also have a hyperlink to take you back to [Contents](#contents) so that you do not have to continuously scroll to reach the top of the page.
+Each of the sub-contents will also have a hyperlink to take you back to [Contents](#contents) to make navigation easier.
 
 <br>
 
@@ -99,10 +95,10 @@ Each list of sub-contents will also have a hyperlink to take you back to [Conten
 > Tick symbols (✔️) indicate **valid** input into MoneyGoWhere.
 
 {: .tips }
-> Information symbols (ℹ️) indicate **tips** or **notes** that contain extra information to clarify functions for you.
+> Information symbols (ℹ️) indicate **tips** or **notes** that contain **extra** information to clarify the usage of functions.
 
 {: .notes }
-> Light-bulb symbols (💡) indicate **precautions** that you should take when using the function.
+> Light-bulb symbols (💡) indicate **important information** that you should know when using the function.
 
 {: .question }
 > Question symbols (❓) indicate common **enquiries** that users ask about MoneyGoWhere.
@@ -267,7 +263,7 @@ SYNTAX: Add-Expense -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-c 
 ## Quick Start
 
 ### Sub-Contents
-* [How to run MoneyGoWhere](#how-to-run-moneygowhere)
+* [Getting started with MoneyGoWhere](#getting-started-with-moneygowhere)
 * [Basic commands](#basic-commands)
 * [Back to Contents](#contents)
 
@@ -275,7 +271,7 @@ SYNTAX: Add-Expense -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-c 
 <hr>
 <br>
 
-### How to run MoneyGoWhere
+### Getting started with MoneyGoWhere
 
 <br>
 
