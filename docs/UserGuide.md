@@ -11,7 +11,11 @@ permalink: /userguide/
 <p align="center"><img alt="icon" src="https://raw.githubusercontent.com/AY2223S1-CS2113T-W11-1/tp/master/docs/images/icon.png"></p>
 <br>
 
-<p align="center">The financial tracker built for the computing professional.</p>
+<h2 align="center">The financial tracker built for the computing professional.</h2>
+
+<br>
+<br>
+<br>
 
 <div style="page-break-after: always;"></div>
 
