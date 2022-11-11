@@ -427,6 +427,10 @@ Example of usage:
 _If you would like a user-friendly overview of all available commands, please refer to the [Command Summary](#command-summary) at the end of the guide._
 
 <br>
+
+[Back to Contents](#contents)
+
+<br>
 <br>
 
 ## Managing your expenses
