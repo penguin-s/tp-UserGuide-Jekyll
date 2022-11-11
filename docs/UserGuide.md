@@ -1542,8 +1542,7 @@ The target was edited successfully.
 <div style="page-break-after: always;"></div>
 
 ## Managing your data
-By default, all lists are saved in the `MoneyGoWhereData.xml` file in the **Memory** folder created in the same directory as `MoneyGoWhere.jar`.
-
+By default, all lists are saved in the `MoneyGoWhereData.xml` file in the **Memory** folder created in the same directory as `MoneyGoWhere.jar`. 
 Rest assured that your data will be saved automatically and will not be lost when exiting the MoneyGoWhere.
 
 <br>
