@@ -56,7 +56,17 @@ Head down to [How to use the User Guide](#how-to-use-the-user-guide) to get Mone
 
 When using the user guide, you should first refer to the [Contents](#contents) to quickly navigate between sections.
 
-Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in a snap.
+In the [Contents](#contents), each section *(e.g. [How to use the User Guide](#how-to-use-the-user-guide).)* in the User Guide is listed as a point.
+
+When navigating through the User Guide, there will be a hyperlink at the bottom of each section that will take you to back to [Contents](#contents). 
+
+However, some sections may have a list of sub-contents as well and will have hyperlinks at the bottom of every subsection *(e.g. [Adding an expense](#adding-an-expense-add-expense))* that will take you back to the sub-contents of that section.
+
+Each list of sub-contents will also have a hyperlink to take you back to [Contents](#contents) so that you do not have to continuously scroll to reach the top of the page.
+
+<br>
+
+**Otherwise, the [Quick Start](#quick-start) can help you get into MoneyGoWhere in a snap.**
 
 <br>
 <hr>
