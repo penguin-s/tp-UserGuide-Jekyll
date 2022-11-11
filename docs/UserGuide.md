@@ -1563,7 +1563,10 @@ Merge-File -p "C:\Users\the_d\Downloads\expenses.xml"
 
 ## Exiting the application: `Bye`
 
-Exits MoneyGoWhere.
+Exits MoneyGoWhere. 
+
+{: .tips }
+> Worried about losing your data? No worries! MoneyGoWhere saves your data automatically.
 
 Syntax: `Bye`
 
@@ -1613,7 +1616,7 @@ A compilation of frequently asked questions that can help you clarify common mis
 
 ## Command Summary
 
-A list of all valid commands.
+An overview of all valid commands that you can use in MoneyGoWhere.
 
 
 ### Expenses
