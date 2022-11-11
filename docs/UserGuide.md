@@ -275,8 +275,6 @@ SYNTAX: Add-Expense -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-c 
 <hr>
 <br>
 
-<br>
-
 ### How to run MoneyGoWhere
 
 <br>
