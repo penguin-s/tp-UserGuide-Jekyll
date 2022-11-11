@@ -291,6 +291,8 @@ SYNTAX: Add-Expense -n NAME -a AMOUNT [-d dd/MM/yyyy HHmm] [-t DESCRIPTION] [-c 
 5. Execute the command  `java -jar MoneyGoWhere.jar` to launch MoneyGoWhere
 6. When successfully run, MoneyGoWhere should display the following message:
 
+<div style="page-break-after: always;"></div>
+
 ```
   __  __                         _____   __          ___                   
  |  \/  |                       / ____|  \ \        / / |                  
