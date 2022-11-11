@@ -52,7 +52,7 @@ callouts:
     title: ℹ️ Tips
     color: blue
   notes:
-    title: ⚠️ Notes
+    title: 💡 Notes
     color: yellow
   question:
     title: ❓ Question
