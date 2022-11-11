@@ -405,6 +405,8 @@ Your MoneyGoWhere? Let me help you track it.
 <br>
 <br>
 
+<div style="page-break-after: always;"></div>
+
 ## Features
 
 ### Displaying the help menu: `Help`
@@ -436,6 +438,7 @@ _If you would like a user-friendly overview of all available commands, please re
 <hr>
 <br>
 
+<div style="page-break-after: always;"></div>
 
 ### Adding an expense: `Add-Expense`
 
