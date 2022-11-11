@@ -763,7 +763,7 @@ Syntax: `Convert-Currency -e EXPENSE-INDEX -x CURRENCY [-r RATE]`
 
 Example of usage:
 
-#### Converting the currency of expense index 1 to the Malaysian Ringgit using a custom exchange rate
+#### Converting the currency of an expense to the Malaysian Ringgit using a custom exchange rate
 ```
 Convert-Currency -e 1 -x MYR -r 1.35
 
@@ -810,10 +810,13 @@ Adds a recurring payment to the list of recurring payments.
 Syntax: `Add-RecurringPayment -n NAME -i INTERVAL -a AMOUNT [-t DESCRIPTION] [-c CATEGORY] [-x CURRENCY] [-p MODE-OF-PAYMENT]`
 
 {: .notes }
-> * `NAME`, `DESCRIPTION`, `CATEGORY` and `MODE_OF_PAYMENT` are text strings. You may use spaces within the text if you wrap the text with double quotes.
+> * `NAME`, `DESCRIPTION`, `CATEGORY` and `MODE_OF_PAYMENT` are text strings.
 > * `INTERVAL` is an integer value. Set this value to the estimated number of days between your recurring payments.
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
 > * `CURRENCY` is a text string. It must be a valid currency code.
+
+{: .tips }
+> * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
 
@@ -870,7 +873,7 @@ Syntax: `View-RecurringPayment [-r RECURRINGPAYMENT-INDEX]`
 
 {: .notes }
 > * `RECURRINGPAYMENT-INDEX` is an integer value.
-  >   * This value should be equal to or greater than 0.
+>   * This value should be equal to or greater than 0.
 >   * If this argument is provided, MoneyGoWhere will only display the specified recurring payment.
 
 <br>
@@ -965,10 +968,13 @@ Syntax: `Edit-RecurringPayment -r RECURRINGPAYMENT-INDEX [-n NAME] [-i INTERVAL]
 
 {: .notes }
 > * `RECURRINGPAYMENT-INDEX` is an integer value. This value should be equal to or greater than 0.
-> * `NAME`, `DESCRIPTION`, `CATEGORY` and `MODE-OF-PAYMENT` are text strings. You may use spaces within the text if you wrap the text with double quotes.
+> * `NAME`, `DESCRIPTION`, `CATEGORY` and `MODE-OF-PAYMENT` are text strings.
 > * `INTERVAL` is an integer value. Set this value to the estimated number of days between your recurring payments.
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
 > * `CURRENCY` is a text string. It must be a valid currency code.
+
+> * {: .tips }
+> * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
 
@@ -1027,6 +1033,10 @@ Syntax: `Pay-RecurringPayment -r RECURRING_PAYMENT_INDEX [-d DATE-TIME]`
 > * `RECURRING_PAYMENT_INDEX` is an integer value. This value should be equal to or greater than 0.
 > * `DATE-TIME` is a text string in the format `"dd/MM/yyyy HHmm"`. If this value is not provided, MoneyGoWhere will save the current date and time for you.
 
+> * {: .tips }
+> * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
+> * You may exclude the `DATE-TIME` argument from the command and MoneyGoWhere will save the current date and time for you.
+
 <br>
 
 Example of usage:
@@ -1076,9 +1086,12 @@ Adds a new income to the list of incomes.
 Syntax: `Add-Income -n NAME -a AMOUNT [-d DATE_TIME] [-t DESCRIPTION]`
 
 {: .notes }
-> * `NAME` and `DESCRIPTION` are text strings. You may use spaces within the text if you wrap the text with double quotes.
+> * `NAME` and `DESCRIPTION` are text strings.
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
 > * `DATE_TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
+
+> * {: .tips }
+> * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
 
@@ -1185,7 +1198,7 @@ Deletes an income from the list of incomes.
 Syntax: `Delete-Income -e INCOME-INDEX`
 
 {: .notes }
-> * `INCOME-INDEX` is an integer value.  This value should be equal to or greater than 0.
+> * `INCOME-INDEX` is an integer value. This value should be equal to or greater than 0.
 
 <br>
 
@@ -1213,9 +1226,12 @@ Syntax: `Edit-Income -e INCOME-INDEX [-n NAME] [-a AMOUNT] [-d DATE_TIME] [-t DE
 
 {: .notes }
 > * `INCOME-INDEX` is an integer value. This value should be equal to or greater than 0.
-> * `NAME` and `DESCRIPTION` are text strings. You may use spaces within the text if you wrap the text with double quotes.
+> * `NAME` and `DESCRIPTION` are text strings.
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
 > * `DATE_TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
+
+> * {: .tips }
+> * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
 
@@ -1281,9 +1297,12 @@ Adds a new target to the list of targets.
 Syntax: `Add-Target -n NAME -a AMOUNT -c CURRENT_AMOUNT [-d DATE_TIME] [-t DESCRIPTION]`
 
 {: .notes }
-> * `NAME` and `DESCRIPTION` are text strings. You may use spaces within the text if you wrap the text with double quotes.
+> * `NAME` and `DESCRIPTION` are text strings.
 > * `AMOUNT` and `CURRENT_AMOUNT` are decimal value. The values should be greater than 0.
 > * `DATE_TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
+
+> * {: .tips }
+> * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
 
@@ -1429,9 +1448,12 @@ Syntax: `Edit-Target -e TARGET-INDEX [-n NAME] [-a AMOUNT] [-c CURRENT_AMOUNT] [
 
 {: .notes }
 > * `TARGET-INDEX` is an integer value. This value should be equal to or greater than 0.
-> * `NAME` and `DESCRIPTION` are text strings. You may use spaces within the text if you wrap the text with double quotes.
+> * `NAME` and `DESCRIPTION` are text strings.
 > * `AMOUNT` and `CURRENT_AMOUNT` is a decimal value. The values should be greater than 0.
 > * `DATE_TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
+
+> * {: .tips }
+> * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
 
@@ -1497,7 +1519,10 @@ Merges the data from an external data file with the data from the current data f
 Syntax: `Merge-File -p PATH_STRING`
 
 {: .notes }
-> * `PATH_STRING` is text string. If the path to your external data file contains spaces, you would need to wrap the path with double quotes.
+> * `PATH_STRING` is text string.
+
+> * {: .tips }
+> * If the path to your external data file happens to contain spaces, please wrap the path with [double quotes](#adding-double-quotes).
 
 <br>
 
