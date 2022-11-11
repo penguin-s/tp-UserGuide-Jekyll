@@ -56,7 +56,7 @@ Head down to [How to use the User Guide](#how-to-use-the-user-guide) to get Mone
 
 When using the user guide, you should first refer to [Contents](#contents) to quickly navigate between sections.
 
-In [Contents](#contents), each section *(e.g. [How to use the User Guide](#how-to-use-the-user-guide).)* in the User Guide is listed as a point.
+In [Contents](#contents), each section *(e.g. [How to use the User Guide](#how-to-use-the-user-guide))* in the User Guide is listed as a point.
 
 When navigating through the User Guide, there will be a hyperlink at the bottom of each section that will take you to back to [Contents](#contents). 
 
