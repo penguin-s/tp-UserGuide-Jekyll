@@ -428,9 +428,10 @@ Syntax: Syntax: `Add-Expense -n NAME -a AMOUNT [-d DATE-TIME] [-t DESCRIPTION] [
 > * `NAME`, `DESCRIPTION`, `CATEGORY`, `REMARKS` and `MODE-OF-PAYMENT` are text strings.
 > * `DATE-TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
 > * `CURRENCY` is a text string. It must be a valid currency code.
+
 {: .tips }
 > * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
-> * You may exclude the `DATE-TIME` argument and MoneyGoWhere will save the current date and time for you.
+> * You may exclude the `DATE-TIME` argument from the command and MoneyGoWhere will save the current date and time for you.
 
 <br>
 
@@ -619,9 +620,11 @@ Syntax: `Edit-Expense -e EXPENSE-INDEX [-n NAME] [-d DATE-TIME] [-t DESCRIPTION]
 {: .notes }
 > * `EXPENSE-INDEX` is an integer value. This value should be equal to or greater than 0.
 > * `NAME`, `DESCRIPTION`, `CATEGORY`, `REMARKS` and `MODE-OF-PAYMENT` are text strings. You may use spaces within the text if you wrap the text with double quotes.
-> * `DATE-TIME` is a text string in the format `"dd/MM/yyyy HHmm"`. If this value is not provided, MoneyGoWhere will save the current date and time for you.
+> * `DATE-TIME` is a text string in the format `"dd/MM/yyyy HHmm"`.
 > * `AMOUNT` is a decimal value. The value should be greater than 0.
 > * `CURRENCY` is a text string. It must be a valid currency code.
+  {: .tips }
+> * You may use spaces within your argument values if you wrap the value with [double quotes](#adding-double-quotes).
 
 <br>
 
